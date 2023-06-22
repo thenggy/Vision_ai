@@ -1,0 +1,4 @@
+/home/ngy/micro_ros/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectory.idl
+/home/ngy/micro_ros/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectoryPoint.idl
+/home/ngy/micro_ros/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectory.idl
+/home/ngy/micro_ros/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.idl

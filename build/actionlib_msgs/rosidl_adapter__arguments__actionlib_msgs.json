@@ -1,0 +1,8 @@
+{
+  "package_name": "actionlib_msgs",
+  "non_idl_tuples": [
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/actionlib_msgs:msg/GoalID.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/actionlib_msgs:msg/GoalStatus.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/actionlib_msgs:msg/GoalStatusArray.msg"
+  ]
+}

@@ -1,0 +1,11 @@
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/ImageMarker.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarker.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerControl.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerFeedback.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerInit.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerPose.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/InteractiveMarkerUpdate.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/Marker.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MarkerArray.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:msg/MenuEntry.idl
+/home/ngy/micro_ros/build/visualization_msgs/rosidl_adapter/visualization_msgs:srv/GetInteractiveMarkers.idl

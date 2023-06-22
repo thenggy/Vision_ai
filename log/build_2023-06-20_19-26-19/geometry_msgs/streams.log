@@ -1,0 +1,1139 @@
+[0.069s] Invoking command in '/home/ngy/micro_ros/build/geometry_msgs': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ngy/micro_ros/src/ros2/common_interfaces/geometry_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ngy/micro_ros/install/geometry_msgs
+[0.197s] -- The C compiler identification is GNU 9.4.0
+[0.318s] -- The CXX compiler identification is GNU 9.4.0
+[0.333s] -- Check for working C compiler: /usr/bin/cc
+[0.483s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.484s] -- Detecting C compiler ABI info
+[0.637s] -- Detecting C compiler ABI info - done
+[0.667s] -- Detecting C compile features
+[0.668s] -- Detecting C compile features - done
+[0.674s] -- Check for working CXX compiler: /usr/bin/c++
+[0.851s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.853s] -- Detecting CXX compiler ABI info
+[1.024s] -- Detecting CXX compiler ABI info - done
+[1.055s] -- Detecting CXX compile features
+[1.057s] -- Detecting CXX compile features - done
+[1.063s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.127s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.617s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.648s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.897s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.972s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.260s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[2.423s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.143s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.749s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.074s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.080s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.157s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.158s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.158s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.159s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.215s] -- Found PythonExtra: .so  
+[4.502s] -- Configuring done
+[4.980s] -- Generating done
+[4.992s] -- Build files have been written to: /home/ngy/micro_ros/build/geometry_msgs
+[5.015s] Invoked command in '/home/ngy/micro_ros/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ngy/micro_ros/src/ros2/common_interfaces/geometry_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ngy/micro_ros/install/geometry_msgs
+[5.020s] Invoking command in '/home/ngy/micro_ros/build/geometry_msgs': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ngy/micro_ros/build/geometry_msgs -- -j12 -l12
+[5.410s] [35m[1mScanning dependencies of target geometry_msgs__cpp[0m
+[5.411s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.501s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.096s] [  0%] Built target geometry_msgs__cpp
+[15.091s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_generator_c[0m
+[15.170s] [  0%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel__functions.c.o[0m
+[15.286s] [  0%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point32__functions.c.o[0m
+[15.401s] [  1%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point_stamped__functions.c.o[0m
+[15.516s] [  1%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/polygon__functions.c.o[0m
+[15.613s] [  1%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/polygon_stamped__functions.c.o[0m
+[15.731s] [  2%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose__functions.c.o[0m
+[15.840s] [  2%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose2_d__functions.c.o[0m
+[15.947s] [  2%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_array__functions.c.o[0m
+[16.030s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_stamped__functions.c.o[0m
+[16.114s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_with_covariance__functions.c.o[0m
+[16.204s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c.o[0m
+[16.314s] [  3%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/quaternion__functions.c.o[0m
+[16.396s] [  4%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/quaternion_stamped__functions.c.o[0m
+[16.513s] [  4%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/transform__functions.c.o[0m
+[16.629s] [  4%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/transform_stamped__functions.c.o[0m
+[16.748s] [  5%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist__functions.c.o[0m
+[16.853s] [  5%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_stamped__functions.c.o[0m
+[16.968s] [  5%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_with_covariance__functions.c.o[0m
+[17.083s] [  6%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c.o[0m
+[17.197s] [  6%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/vector3__functions.c.o[0m
+[17.309s] [  6%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/vector3_stamped__functions.c.o[0m
+[17.427s] [  7%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/wrench__functions.c.o[0m
+[17.545s] [  7%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/wrench_stamped__functions.c.o[0m
+[17.660s] [  7%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/point__functions.c.o[0m
+[17.766s] [  8%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/inertia_stamped__functions.c.o[0m
+[17.865s] [  8%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/inertia__functions.c.o[0m
+[17.976s] [  8%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c.o[0m
+[18.099s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_with_covariance__functions.c.o[0m
+[18.216s] [  9%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_generator_c.dir/rosidl_generator_c/geometry_msgs/msg/detail/accel_stamped__functions.c.o[0m
+[18.333s] [  9%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_generator_c.so[0m
+[18.440s] [  9%] Built target geometry_msgs__rosidl_generator_c
+[18.471s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.973s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_introspection_cpp[0m
+[22.046s] [  9%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel__type_support.cpp.o[0m
+[22.752s] [  9%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp.o[0m
+[23.433s] [  9%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point__type_support.cpp.o[0m
+[24.024s] [ 10%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point32__type_support.cpp.o[0m
+[24.427s] [ 10%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/point_stamped__type_support.cpp.o[0m
+[24.837s] [ 10%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/polygon__type_support.cpp.o[0m
+[25.307s] [ 10%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp.o[0m
+[25.735s] [ 11%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose__type_support.cpp.o[0m
+[26.332s] [ 11%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose2_d__type_support.cpp.o[0m
+[26.975s] [ 12%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp.o[0m
+[26.975s] [ 12%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_array__type_support.cpp.o[0m
+[26.975s] [ 12%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/inertia__type_support.cpp.o[0m
+[27.672s] [ 13%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_stamped__type_support.cpp.o[0m
+[27.698s] [ 13%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp.o[0m
+[27.773s] [ 13%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp.o[0m
+[28.457s] [ 14%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/quaternion__type_support.cpp.o[0m
+[28.462s] [ 14%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp.o[0m
+[28.529s] [ 15%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/accel_stamped__type_support.cpp.o[0m
+[28.547s] [ 15%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp.o[0m
+[29.244s] [ 16%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/transform_stamped__type_support.cpp.o[0m
+[29.260s] [ 16%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/transform__type_support.cpp.o[0m
+[29.553s] [ 16%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist__type_support.cpp.o[0m
+[29.645s] [ 16%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_stamped__type_support.cpp.o[0m
+[29.752s] [ 17%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp.o[0m
+[30.382s] [ 17%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp.o[0m
+[30.392s] [ 17%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/vector3__type_support.cpp.o[0m
+[30.677s] [ 17%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp.o[0m
+[30.820s] [ 18%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/wrench__type_support.cpp.o[0m
+[30.894s] [ 18%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp.o[0m
+[32.139s] [ 18%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[32.435s] [ 18%] Built target geometry_msgs__rosidl_typesupport_introspection_cpp
+[32.468s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35.036s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_c[0m
+[35.077s] [ 19%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[35.131s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point__type_support.cpp.o[0m
+[35.185s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[35.243s] [ 20%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[35.299s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[35.355s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[35.416s] [ 21%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[35.470s] [ 22%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[35.527s] [ 22%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[35.580s] [ 22%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[35.636s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[35.691s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[35.749s] [ 23%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[35.804s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[35.858s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[35.913s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[35.970s] [ 24%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[36.024s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[36.080s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[36.135s] [ 25%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[36.192s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[36.248s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[36.305s] [ 26%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[36.370s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[36.450s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[36.530s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[36.608s] [ 27%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[36.691s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[36.780s] [ 28%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[36.859s] [ 28%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_c.so[0m
+[36.978s] [ 28%] Built target geometry_msgs__rosidl_typesupport_c
+[37.005s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[39.732s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_introspection_c[0m
+[39.783s] [ 29%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel__type_support.c.o[0m
+[39.838s] [ 29%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point32__type_support.c.o[0m
+[39.892s] [ 30%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point_stamped__type_support.c.o[0m
+[39.947s] [ 30%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/polygon__type_support.c.o[0m
+[40.011s] [ 30%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/polygon_stamped__type_support.c.o[0m
+[40.071s] [ 30%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose__type_support.c.o[0m
+[40.124s] [ 31%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose2_d__type_support.c.o[0m
+[40.176s] [ 31%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_array__type_support.c.o[0m
+[40.234s] [ 31%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_stamped__type_support.c.o[0m
+[40.289s] [ 32%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_with_covariance__type_support.c.o[0m
+[40.343s] [ 32%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c.o[0m
+[40.402s] [ 32%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/quaternion__type_support.c.o[0m
+[40.455s] [ 33%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/quaternion_stamped__type_support.c.o[0m
+[40.509s] [ 33%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/transform__type_support.c.o[0m
+[40.562s] [ 33%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/transform_stamped__type_support.c.o[0m
+[40.615s] [ 34%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist__type_support.c.o[0m
+[40.666s] [ 34%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_stamped__type_support.c.o[0m
+[40.719s] [ 34%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_with_covariance__type_support.c.o[0m
+[40.770s] [ 35%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c.o[0m
+[40.820s] [ 35%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/vector3__type_support.c.o[0m
+[40.869s] [ 35%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/vector3_stamped__type_support.c.o[0m
+[40.919s] [ 35%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/wrench__type_support.c.o[0m
+[40.968s] [ 36%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/wrench_stamped__type_support.c.o[0m
+[41.019s] [ 36%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/point__type_support.c.o[0m
+[41.067s] [ 37%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/inertia_stamped__type_support.c.o[0m
+[41.118s] [ 37%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/inertia__type_support.c.o[0m
+[41.168s] [ 37%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c.o[0m
+[41.219s] [ 38%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_with_covariance__type_support.c.o[0m
+[41.268s] [ 38%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/geometry_msgs/msg/detail/accel_stamped__type_support.c.o[0m
+[41.319s] [ 38%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_typesupport_introspection_c.so[0m
+[41.381s] [ 38%] Built target geometry_msgs__rosidl_typesupport_introspection_c
+[41.399s] [ 39%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[44.793s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_microxrcedds_c[0m
+[44.873s] [ 39%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel__type_support_c.c.o[0m
+[44.874s] [ 39%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_stamped__type_support_c.c.o[0m
+[44.876s] [ 40%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance__type_support_c.c.o[0m
+[45.010s] [ 41%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point_stamped__type_support_c.c.o[0m
+[45.032s] [ 41%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/polygon__type_support_c.c.o[0m
+[45.037s] [ 41%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/polygon_stamped__type_support_c.c.o[0m
+[45.141s] [ 42%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose__type_support_c.c.o[0m
+[45.174s] [ 42%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose2_d__type_support_c.c.o[0m
+[45.215s] [ 42%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_array__type_support_c.c.o[0m
+[45.282s] [ 42%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_stamped__type_support_c.c.o[0m
+[45.282s] [ 43%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance__type_support_c.c.o[0m
+[45.333s] [ 43%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance_stamped__type_support_c.c.o[0m
+[45.390s] [ 43%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/quaternion__type_support_c.c.o[0m
+[45.391s] [ 44%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/quaternion_stamped__type_support_c.c.o[0m
+[45.435s] [ 44%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/transform__type_support_c.c.o[0m
+[45.494s] [ 44%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/transform_stamped__type_support_c.c.o[0m
+[45.498s] [ 45%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist__type_support_c.c.o[0m
+[45.531s] [ 45%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_stamped__type_support_c.c.o[0m
+[45.589s] [ 45%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance__type_support_c.c.o[0m
+[45.593s] [ 46%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance_stamped__type_support_c.c.o[0m
+[45.602s] [ 46%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/vector3__type_support_c.c.o[0m
+[45.661s] [ 46%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/vector3_stamped__type_support_c.c.o[0m
+[45.676s] [ 47%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/wrench__type_support_c.c.o[0m
+[45.680s] [ 47%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/wrench_stamped__type_support_c.c.o[0m
+[45.758s] [ 47%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point32__type_support_c.c.o[0m
+[45.762s] [ 47%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/point__type_support_c.c.o[0m
+[45.777s] [ 48%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/inertia_stamped__type_support_c.c.o[0m
+[45.828s] [ 48%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/inertia__type_support_c.c.o[0m
+[45.862s] [ 48%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance_stamped__type_support_c.c.o[0m
+[45.956s] [ 48%] [32m[1mLinking C shared library libgeometry_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[46.031s] [ 48%] Built target geometry_msgs__rosidl_typesupport_microxrcedds_c
+[46.055s] [ 48%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[46.060s] [ 48%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[46.060s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[48.458s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[48.562s] [ 48%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel__type_support.cpp.o[0m
+[48.565s] [ 49%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_stamped__type_support.cpp.o[0m
+[48.591s] [ 49%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_with_covariance__type_support.cpp.o[0m
+[48.598s] [ 49%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/accel_with_covariance_stamped__type_support.cpp.o[0m
+[48.652s] [ 50%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/inertia__type_support.cpp.o[0m
+[49.696s] [ 50%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/polygon__type_support.cpp.o[0m
+[49.704s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point_stamped__type_support.cpp.o[0m
+[49.712s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point32__type_support.cpp.o[0m
+[49.764s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/polygon_stamped__type_support.cpp.o[0m
+[50.050s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[50.065s] [ 51%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/inertia_stamped__type_support.cpp.o[0m
+[50.083s] [ 52%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[50.107s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_cpp[0m
+[50.236s] [ 52%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_array__type_support.cpp.o[0m
+[50.241s] [ 52%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[50.255s] [ 52%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel__type_support.cpp.o[0m
+[51.170s] [ 53%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_stamped__type_support.cpp.o[0m
+[51.316s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_stamped__type_support.cpp.o[0m
+[51.325s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance__type_support.cpp.o[0m
+[51.428s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_with_covariance__type_support.cpp.o[0m
+[51.581s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/pose_with_covariance_stamped__type_support.cpp.o[0m
+[51.596s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/accel_with_covariance_stamped__type_support.cpp.o[0m
+[51.820s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia__type_support.cpp.o[0m
+[52.732s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point32__type_support.cpp.o[0m
+[52.967s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_with_covariance__type_support.cpp.o[0m
+[53.020s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[53.120s] [ 54%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/accel__type_support_cpp.cpp.o[0m
+[53.455s] [ 55%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point_stamped__type_support.cpp.o[0m
+[53.951s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/accel_stamped__type_support_cpp.cpp.o[0m
+[54.018s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_stamped__type_support.cpp.o[0m
+[54.260s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon__type_support.cpp.o[0m
+[54.721s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance__type_support_cpp.cpp.o[0m
+[55.012s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/polygon_stamped__type_support.cpp.o[0m
+[55.075s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/vector3__type_support.cpp.o[0m
+[55.469s] [ 56%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance_stamped__type_support_cpp.cpp.o[0m
+[55.749s] [ 57%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose__type_support.cpp.o[0m
+[56.062s] [ 58%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist_with_covariance_stamped__type_support.cpp.o[0m
+[56.273s] [ 59%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/inertia__type_support_cpp.cpp.o[0m
+[56.479s] [ 59%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_array__type_support.cpp.o[0m
+[57.023s] [ 59%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/inertia_stamped__type_support_cpp.cpp.o[0m
+[57.114s] [ 59%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose2_d__type_support.cpp.o[0m
+[57.139s] [ 59%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/vector3_stamped__type_support.cpp.o[0m
+[57.620s] [ 60%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/point32__type_support_cpp.cpp.o[0m
+[57.835s] [ 60%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/point__type_support.cpp.o[0m
+[58.143s] [ 61%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/wrench__type_support.cpp.o[0m
+[58.302s] [ 61%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/point_stamped__type_support_cpp.cpp.o[0m
+[58.630s] [ 62%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_stamped__type_support.cpp.o[0m
+[59.239s] [ 62%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/polygon__type_support_cpp.cpp.o[0m
+[59.242s] [ 62%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/wrench_stamped__type_support.cpp.o[0m
+[59.464s] [ 62%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance_stamped__type_support.cpp.o[0m
+[60.125s] [ 63%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/polygon_stamped__type_support_cpp.cpp.o[0m
+[60.203s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion__type_support.cpp.o[0m
+[60.238s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/twist__type_support.cpp.o[0m
+[60.854s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose__type_support_cpp.cpp.o[0m
+[60.981s] [ 64%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform__type_support.cpp.o[0m
+[61.224s] [ 65%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/transform_stamped__type_support.cpp.o[0m
+[61.581s] [ 65%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose2_d__type_support_cpp.cpp.o[0m
+[61.730s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist__type_support.cpp.o[0m
+[62.261s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/transform__type_support.cpp.o[0m
+[62.417s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose_array__type_support_cpp.cpp.o[0m
+[62.457s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance__type_support.cpp.o[0m
+[63.187s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_stamped__type_support.cpp.o[0m
+[63.228s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/quaternion_stamped__type_support.cpp.o[0m
+[63.272s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance__type_support_cpp.cpp.o[0m
+[63.884s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3__type_support.cpp.o[0m
+[63.925s] [ 66%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance_stamped__type_support_cpp.cpp.o[0m
+[64.192s] [ 67%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/geometry_msgs/msg/detail/dds_fastrtps/quaternion__type_support.cpp.o[0m
+[64.553s] [ 67%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/vector3_stamped__type_support.cpp.o[0m
+[64.584s] [ 67%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/quaternion_stamped__type_support_cpp.cpp.o[0m
+[65.007s] [ 67%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[65.173s] [ 68%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench__type_support.cpp.o[0m
+[65.279s] [ 68%] Built target geometry_msgs__rosidl_typesupport_fastrtps_cpp
+[65.309s] [ 68%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/transform__type_support_cpp.cpp.o[0m
+[65.783s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/quaternion__type_support_cpp.cpp.o[0m
+[65.868s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/wrench_stamped__type_support.cpp.o[0m
+[66.238s] [ 69%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/twist__type_support_cpp.cpp.o[0m
+[66.295s] [ 70%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/twist_with_covariance_stamped__type_support.cpp.o[0m
+[66.727s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance__type_support_cpp.cpp.o[0m
+[66.760s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/transform_stamped__type_support.cpp.o[0m
+[67.200s] [ 71%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/quaternion_stamped__type_support.cpp.o[0m
+[67.302s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/vector3_stamped__type_support_cpp.cpp.o[0m
+[67.642s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/pose_with_covariance__type_support.cpp.o[0m
+[67.794s] [ 72%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/wrench_stamped__type_support_cpp.cpp.o[0m
+[68.108s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/geometry_msgs/msg/inertia_stamped__type_support.cpp.o[0m
+[68.285s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/wrench__type_support_cpp.cpp.o[0m
+[68.526s] [ 73%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_cpp.so[0m
+[68.610s] [ 73%] Built target geometry_msgs__rosidl_typesupport_cpp
+[68.726s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/vector3__type_support_cpp.cpp.o[0m
+[69.145s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance_stamped__type_support_cpp.cpp.o[0m
+[69.578s] [ 73%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/twist_stamped__type_support_cpp.cpp.o[0m
+[70.062s] [ 74%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/transform_stamped__type_support_cpp.cpp.o[0m
+[70.493s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/pose_stamped__type_support_cpp.cpp.o[0m
+[70.913s] [ 75%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/geometry_msgs/msg/detail/microxrcedds/point__type_support_cpp.cpp.o[0m
+[71.326s] [ 76%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[71.462s] [ 76%] Built target geometry_msgs__rosidl_typesupport_microxrcedds_cpp
+[71.482s] [ 77%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[74.406s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_c[0m
+[74.471s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel__type_support_c.cpp.o[0m
+[74.472s] [ 77%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_stamped__type_support_c.cpp.o[0m
+[74.472s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_with_covariance__type_support_c.cpp.o[0m
+[74.930s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[74.931s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/polygon_stamped__type_support_c.cpp.o[0m
+[74.947s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_array__type_support_c.cpp.o[0m
+[75.426s] [ 78%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_stamped__type_support_c.cpp.o[0m
+[75.591s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_with_covariance__type_support_c.cpp.o[0m
+[75.627s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support_c.cpp.o[0m
+[76.160s] [ 79%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/quaternion__type_support_c.cpp.o[0m
+[76.297s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/quaternion_stamped__type_support_c.cpp.o[0m
+[76.436s] [ 80%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/transform__type_support_c.cpp.o[0m
+[76.962s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/transform_stamped__type_support_c.cpp.o[0m
+[76.962s] [ 81%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[76.986s] [ 82%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist__type_support_c.cpp.o[0m
+[77.050s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/polygon__type_support_c.cpp.o[0m
+[77.169s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_stamped__type_support_c.cpp.o[0m
+[77.794s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_with_covariance__type_support_c.cpp.o[0m
+[77.801s] [ 83%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support_c.cpp.o[0m
+[77.830s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/vector3__type_support_c.cpp.o[0m
+[77.854s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/vector3_stamped__type_support_c.cpp.o[0m
+[77.855s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point_stamped__type_support_c.cpp.o[0m
+[77.877s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point32__type_support_c.cpp.o[0m
+[77.881s] [ 84%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/wrench__type_support_c.cpp.o[0m
+[78.631s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/wrench_stamped__type_support_c.cpp.o[0m
+[78.665s] [ 85%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[78.667s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/inertia_stamped__type_support_c.cpp.o[0m
+[78.720s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/inertia__type_support_c.cpp.o[0m
+[78.739s] [ 86%] [32mBuilding CXX object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support_c.cpp.o[0m
+[79.489s] [ 86%] [32m[1mLinking CXX shared library libgeometry_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[79.644s] [ 86%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c
+[79.663s] [35m[1mScanning dependencies of target geometry_msgs[0m
+[79.683s] [ 86%] Built target geometry_msgs
+[79.704s] [35m[1mScanning dependencies of target geometry_msgs__py[0m
+[79.725s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[84.762s] [ 86%] Built target geometry_msgs__py
+[84.779s] [35m[1mScanning dependencies of target geometry_msgs__python[0m
+[84.889s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_accel_with_covariance_stamped_s.c.o[0m
+[84.889s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_inertia_s.c.o[0m
+[84.889s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_inertia_stamped_s.c.o[0m
+[84.891s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_accel_s.c.o[0m
+[84.893s] [ 87%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_accel_with_covariance_s.c.o[0m
+[84.893s] [ 88%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_accel_stamped_s.c.o[0m
+[85.007s] [ 88%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_s.c.o[0m
+[85.013s] [ 88%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose2_d_s.c.o[0m
+[85.019s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_array_s.c.o[0m
+[85.074s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_stamped_s.c.o[0m
+[85.080s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_with_covariance_s.c.o[0m
+[85.086s] [ 89%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_pose_with_covariance_stamped_s.c.o[0m
+[85.200s] [ 90%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_quaternion_s.c.o[0m
+[85.205s] [ 90%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_quaternion_stamped_s.c.o[0m
+[85.220s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_transform_stamped_s.c.o[0m
+[85.223s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_transform_s.c.o[0m
+[85.231s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_twist_s.c.o[0m
+[85.269s] [ 91%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_twist_stamped_s.c.o[0m
+[85.345s] [ 92%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_twist_with_covariance_s.c.o[0m
+[85.359s] [ 92%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_twist_with_covariance_stamped_s.c.o[0m
+[85.361s] [ 92%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_vector3_s.c.o[0m
+[85.416s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_vector3_stamped_s.c.o[0m
+[85.462s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_wrench_s.c.o[0m
+[85.476s] [ 93%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_wrench_stamped_s.c.o[0m
+[85.517s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_polygon_stamped_s.c.o[0m
+[85.537s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_polygon_s.c.o[0m
+[85.557s] [ 94%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_point_stamped_s.c.o[0m
+[85.612s] [ 95%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_point32_s.c.o[0m
+[85.663s] [ 95%] [32mBuilding C object CMakeFiles/geometry_msgs__python.dir/rosidl_generator_py/geometry_msgs/msg/_point_s.c.o[0m
+[85.790s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/libgeometry_msgs__python.so[0m
+[85.862s] [ 96%] Built target geometry_msgs__python
+[85.878s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_c__pyext[0m
+[85.879s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[85.879s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[85.879s] [35m[1mScanning dependencies of target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[85.916s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[85.917s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[85.918s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[85.923s] [ 96%] [32mBuilding C object CMakeFiles/geometry_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/geometry_msgs/_geometry_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[86.140s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[86.143s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[86.147s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[86.149s] [100%] [32m[1mLinking C shared library rosidl_generator_py/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[86.207s] [100%] Built target geometry_msgs__rosidl_typesupport_c__pyext
+[86.215s] [100%] Built target geometry_msgs__rosidl_typesupport_introspection_c__pyext
+[86.221s] [100%] Built target geometry_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[86.269s] [100%] Built target geometry_msgs__rosidl_typesupport_fastrtps_c__pyext
+[86.291s] Invoked command in '/home/ngy/micro_ros/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ngy/micro_ros/build/geometry_msgs -- -j12 -l12
+[87.637s] Invoking command in '/home/ngy/micro_ros/build/geometry_msgs': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ngy/micro_ros/build/geometry_msgs
+[87.650s] -- Install configuration: ""
+[87.650s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/ament_index/resource_index/rosidl_interfaces/geometry_msgs
+[87.650s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs
+[87.650s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg
+[87.650s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose.h
+[87.650s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose_array.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/polygon.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/twist_with_covariance.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/inertia.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/vector3.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose_stamped.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/inertia_stamped.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/accel_with_covariance_stamped.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/twist_with_covariance_stamped.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/quaternion_stamped.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/transform.h
+[87.651s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose_with_covariance_stamped.h
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/wrench_stamped.h
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/point.h
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/accel_stamped.h
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__functions.h
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__struct.h
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__functions.c
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__functions.c
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__functions.h
+[87.652s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__functions.c
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__functions.h
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__functions.h
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__functions.h
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__struct.h
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__type_support.h
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__functions.h
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__functions.h
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__type_support.h
+[87.653s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__functions.h
+[87.654s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__functions.c
+[87.654s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__functions.c
+[87.654s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__functions.c
+[87.654s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__type_support.h
+[87.654s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__functions.c
+[87.654s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__functions.c
+[87.654s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.h
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__type_support.h
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.h
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__type_support.h
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__type_support.h
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__functions.c
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__struct.h
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__functions.h
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__struct.h
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__functions.c
+[87.655s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__struct.h
+[87.656s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.c
+[87.656s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__functions.c
+[87.656s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__type_support.h
+[87.656s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__struct.h
+[87.656s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__type_support.h
+[87.656s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__functions.h
+[87.656s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__functions.h
+[87.656s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__struct.h
+[87.657s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__functions.c
+[87.657s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__struct.h
+[87.657s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__type_support.h
+[87.657s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__functions.c
+[87.657s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__functions.h
+[87.657s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__functions.c
+[87.657s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__functions.h
+[87.657s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__struct.h
+[87.658s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__functions.c
+[87.658s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__functions.c
+[87.658s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__functions.c
+[87.658s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__struct.h
+[87.658s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__functions.c
+[87.658s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__struct.h
+[87.658s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__functions.h
+[87.658s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.c
+[87.659s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__type_support.h
+[87.659s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__struct.h
+[87.659s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__functions.c
+[87.659s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__type_support.h
+[87.659s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.h
+[87.659s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__struct.h
+[87.659s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__functions.c
+[87.659s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__type_support.h
+[87.660s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__type_support.h
+[87.660s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__functions.h
+[87.660s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__struct.h
+[87.660s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__type_support.h
+[87.660s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.h
+[87.660s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__struct.h
+[87.661s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__struct.h
+[87.661s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__struct.h
+[87.661s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__type_support.h
+[87.661s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__functions.h
+[87.661s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__functions.h
+[87.661s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__functions.h
+[87.661s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__functions.h
+[87.661s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__type_support.h
+[87.662s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.h
+[87.662s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__functions.h
+[87.662s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.h
+[87.662s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__functions.h
+[87.662s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__functions.h
+[87.662s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__functions.h
+[87.662s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__struct.h
+[87.662s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__struct.h
+[87.663s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__functions.h
+[87.663s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__type_support.h
+[87.663s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__type_support.h
+[87.663s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__type_support.h
+[87.663s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.h
+[87.663s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__functions.c
+[87.663s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__type_support.h
+[87.663s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__struct.h
+[87.664s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__type_support.h
+[87.664s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__functions.h
+[87.664s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__functions.c
+[87.664s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__functions.h
+[87.664s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__functions.h
+[87.664s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__struct.h
+[87.664s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__struct.h
+[87.664s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__type_support.h
+[87.665s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__type_support.h
+[87.665s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__struct.h
+[87.665s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__functions.h
+[87.665s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__type_support.h
+[87.665s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__functions.c
+[87.665s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__functions.c
+[87.665s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__functions.c
+[87.665s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__functions.c
+[87.666s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__struct.h
+[87.666s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__struct.h
+[87.666s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__type_support.h
+[87.666s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__struct.h
+[87.666s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__functions.c
+[87.666s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__type_support.h
+[87.666s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/point32.h
+[87.667s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/twist.h
+[87.667s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/vector3_stamped.h
+[87.667s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/point_stamped.h
+[87.667s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/transform_stamped.h
+[87.667s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/quaternion.h
+[87.667s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose2_d.h
+[87.667s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose_with_covariance.h
+[87.667s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/polygon_stamped.h
+[87.668s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/rosidl_generator_c__visibility_control.h
+[87.668s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/accel.h
+[87.668s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/twist_stamped.h
+[87.668s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/wrench.h
+[87.668s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/accel_with_covariance.h
+[87.668s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/environment/library_path.sh
+[87.668s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/environment/library_path.dsv
+[87.669s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so
+[87.669s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_generator_c.so" to ""
+[87.669s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs
+[87.670s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg
+[87.670s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail
+[87.670s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_microxrcedds_c.h
+[87.670s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds
+[87.670s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_microxrcedds_c.h
+[87.670s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.670s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.670s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_microxrcedds_c.h
+[87.671s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_microxrcedds_c.h
+[87.671s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_microxrcedds_c.h
+[87.671s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_microxrcedds_c.h
+[87.671s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.671s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.671s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_microxrcedds_c.h
+[87.671s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.671s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_microxrcedds_c.h
+[87.672s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.672s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.672s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_microxrcedds_c.h
+[87.672s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.672s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.672s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_microxrcedds_c.h
+[87.672s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_microxrcedds_c.h
+[87.673s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_microxrcedds_c.h
+[87.673s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_microxrcedds_c.h
+[87.673s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_microxrcedds_c.h
+[87.673s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.673s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.673s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_microxrcedds_c.h
+[87.673s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.673s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_microxrcedds_c.h
+[87.674s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__rosidl_typesupport_microxrcedds_c.h
+[87.674s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[87.674s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_microxrcedds_c.so
+[87.675s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[87.675s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs
+[87.675s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg
+[87.675s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail
+[87.675s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_c.h
+[87.675s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_c.h
+[87.675s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_c.h
+[87.675s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_c.h
+[87.675s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_c.h
+[87.676s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_c.h
+[87.676s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_c.h
+[87.676s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_c.h
+[87.676s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_c.h
+[87.676s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[87.676s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[87.676s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_c.h
+[87.677s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_c.h
+[87.677s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_c.h
+[87.677s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[87.677s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_c.h
+[87.677s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_c.h
+[87.677s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_c.h
+[87.677s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h
+[87.677s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[87.678s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_c.h
+[87.678s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_c.h
+[87.678s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[87.678s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_c.h
+[87.678s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_c.h
+[87.678s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[87.678s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_c.h
+[87.679s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_c.h
+[87.679s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_c.h
+[87.679s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[87.679s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+[87.680s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[87.680s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs
+[87.680s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg
+[87.680s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[87.680s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail
+[87.680s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.680s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_fastrtps_cpp.hpp
+[87.680s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[87.680s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_fastrtps_cpp.hpp
+[87.681s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.681s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.681s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.681s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.681s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.681s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_fastrtps_cpp.hpp
+[87.681s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_fastrtps_cpp.hpp
+[87.681s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[87.682s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[87.683s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.683s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/dds_fastrtps
+[87.683s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.683s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[87.683s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[87.683s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.683s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_fastrtps_cpp.hpp
+[87.684s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[87.684s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_fastrtps_cpp.hpp
+[87.684s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+[87.685s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[87.685s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs
+[87.685s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg
+[87.685s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[87.685s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail
+[87.685s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_c.h
+[87.685s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__type_support.c
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__type_support.c
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__type_support.c
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__type_support.c
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_c.h
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__type_support.c
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.c
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_c.h
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__type_support.c
+[87.686s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_c.h
+[87.687s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__type_support.c
+[87.687s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__type_support.c
+[87.687s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_c.h
+[87.687s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__type_support.c
+[87.687s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.c
+[87.687s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_c.h
+[87.687s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[87.687s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_c.h
+[87.688s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_c.h
+[87.688s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_c.h
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_c.h
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__type_support.c
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__type_support.c
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_c.h
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__type_support.c
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_c.h
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__type_support.c
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__type_support.c
+[87.689s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_c.h
+[87.690s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[87.690s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__type_support.c
+[87.690s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__type_support.c
+[87.690s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_c.h
+[87.690s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_c.h
+[87.691s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_c.h
+[87.691s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.c
+[87.691s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_c.h
+[87.691s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_c.h
+[87.692s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__type_support.c
+[87.692s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_c.h
+[87.692s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__type_support.c
+[87.692s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__type_support.c
+[87.692s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__type_support.c
+[87.693s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__type_support.c
+[87.693s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_c.h
+[87.693s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__type_support.c
+[87.693s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__type_support.c
+[87.693s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__type_support.c
+[87.694s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__type_support.c
+[87.694s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_c.h
+[87.694s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[87.694s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_c.h
+[87.694s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[87.694s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_c.h
+[87.695s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__type_support.c
+[87.695s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[87.695s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+[87.695s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so" to ""
+[87.695s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so
+[87.696s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_c.so" to ""
+[87.696s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs
+[87.696s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg
+[87.696s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/accel_with_covariance.hpp
+[87.697s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/polygon.hpp
+[87.697s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/inertia_stamped.hpp
+[87.697s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/twist.hpp
+[87.697s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose_stamped.hpp
+[87.697s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose_array.hpp
+[87.698s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/wrench.hpp
+[87.698s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose2_d.hpp
+[87.698s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/point_stamped.hpp
+[87.698s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose_with_covariance_stamped.hpp
+[87.698s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/accel_with_covariance_stamped.hpp
+[87.699s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/quaternion.hpp
+[87.699s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose.hpp
+[87.699s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/vector3_stamped.hpp
+[87.699s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail
+[87.699s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__traits.hpp
+[87.700s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__builder.hpp
+[87.700s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__struct.hpp
+[87.700s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__traits.hpp
+[87.700s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+[87.700s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__struct.hpp
+[87.701s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__builder.hpp
+[87.701s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp
+[87.701s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__traits.hpp
+[87.701s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__builder.hpp
+[87.702s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__struct.hpp
+[87.702s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__struct.hpp
+[87.702s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__traits.hpp
+[87.702s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__struct.hpp
+[87.702s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__struct.hpp
+[87.702s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__struct.hpp
+[87.703s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__builder.hpp
+[87.703s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__builder.hpp
+[87.703s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__traits.hpp
+[87.703s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__traits.hpp
+[87.704s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__traits.hpp
+[87.704s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__traits.hpp
+[87.704s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__builder.hpp
+[87.704s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__traits.hpp
+[87.704s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__traits.hpp
+[87.705s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__struct.hpp
+[87.705s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__builder.hpp
+[87.705s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__builder.hpp
+[87.705s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__builder.hpp
+[87.705s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__builder.hpp
+[87.706s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__struct.hpp
+[87.706s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__builder.hpp
+[87.706s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp
+[87.706s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__traits.hpp
+[87.706s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__traits.hpp
+[87.707s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__builder.hpp
+[87.707s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__traits.hpp
+[87.707s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__struct.hpp
+[87.707s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__struct.hpp
+[87.707s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__builder.hpp
+[87.708s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__builder.hpp
+[87.708s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__builder.hpp
+[87.708s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__struct.hpp
+[87.708s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__struct.hpp
+[87.708s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__struct.hpp
+[87.709s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__traits.hpp
+[87.709s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__builder.hpp
+[87.709s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__struct.hpp
+[87.709s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__builder.hpp
+[87.709s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__struct.hpp
+[87.710s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp
+[87.710s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__builder.hpp
+[87.710s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__traits.hpp
+[87.710s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__traits.hpp
+[87.710s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__traits.hpp
+[87.711s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp
+[87.711s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__builder.hpp
+[87.711s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__traits.hpp
+[87.711s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__builder.hpp
+[87.711s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp
+[87.712s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__builder.hpp
+[87.712s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__traits.hpp
+[87.712s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__traits.hpp
+[87.712s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__builder.hpp
+[87.712s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp
+[87.713s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__traits.hpp
+[87.713s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__traits.hpp
+[87.713s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__traits.hpp
+[87.713s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__builder.hpp
+[87.713s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__traits.hpp
+[87.714s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__traits.hpp
+[87.714s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__traits.hpp
+[87.714s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__traits.hpp
+[87.714s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__builder.hpp
+[87.715s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__struct.hpp
+[87.715s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__struct.hpp
+[87.715s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__traits.hpp
+[87.715s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__builder.hpp
+[87.715s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__struct.hpp
+[87.716s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__struct.hpp
+[87.716s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__struct.hpp
+[87.716s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__traits.hpp
+[87.716s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__struct.hpp
+[87.716s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__struct.hpp
+[87.717s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__builder.hpp
+[87.717s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__struct.hpp
+[87.717s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__builder.hpp
+[87.717s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/accel_stamped.hpp
+[87.717s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/inertia.hpp
+[87.718s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/transform_stamped.hpp
+[87.718s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/polygon_stamped.hpp
+[87.718s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/twist_with_covariance_stamped.hpp
+[87.718s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/point32.hpp
+[87.719s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/vector3.hpp
+[87.719s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/point.hpp
+[87.719s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/quaternion_stamped.hpp
+[87.719s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/twist_stamped.hpp
+[87.719s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/transform.hpp
+[87.720s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/pose_with_covariance.hpp
+[87.720s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/twist_with_covariance.hpp
+[87.720s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/accel.hpp
+[87.720s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/wrench_stamped.hpp
+[87.720s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs
+[87.721s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg
+[87.721s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail
+[87.721s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.721s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.721s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.722s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds
+[87.722s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/twist__type_support_cpp.cpp
+[87.722s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/wrench__type_support_cpp.cpp
+[87.722s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose__type_support_cpp.cpp
+[87.722s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance__type_support_cpp.cpp
+[87.723s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose2_d__type_support_cpp.cpp
+[87.723s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/vector3__type_support_cpp.cpp
+[87.723s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/transform_stamped__type_support_cpp.cpp
+[87.723s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/point32__type_support_cpp.cpp
+[87.724s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose_array__type_support_cpp.cpp
+[87.724s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/twist_stamped__type_support_cpp.cpp
+[87.724s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/polygon_stamped__type_support_cpp.cpp
+[87.724s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/wrench_stamped__type_support_cpp.cpp
+[87.724s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/inertia_stamped__type_support_cpp.cpp
+[87.725s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance_stamped__type_support_cpp.cpp
+[87.725s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/accel__type_support_cpp.cpp
+[87.725s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance_stamped__type_support_cpp.cpp
+[87.725s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose_stamped__type_support_cpp.cpp
+[87.725s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/accel_stamped__type_support_cpp.cpp
+[87.726s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/vector3_stamped__type_support_cpp.cpp
+[87.726s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/accel_with_covariance__type_support_cpp.cpp
+[87.726s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/inertia__type_support_cpp.cpp
+[87.726s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/quaternion_stamped__type_support_cpp.cpp
+[87.726s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/transform__type_support_cpp.cpp
+[87.726s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/quaternion__type_support_cpp.cpp
+[87.727s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/point__type_support_cpp.cpp
+[87.727s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/point_stamped__type_support_cpp.cpp
+[87.727s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/pose_with_covariance__type_support_cpp.cpp
+[87.727s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/polygon__type_support_cpp.cpp
+[87.727s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/microxrcedds/twist_with_covariance_stamped__type_support_cpp.cpp
+[87.727s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.728s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.728s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.728s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.728s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.728s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.728s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.728s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.729s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_microxrcedds_cpp.hpp
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[87.730s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[87.730s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[87.731s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs
+[87.731s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg
+[87.731s] -- Up-to-date: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__type_support.cpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__type_support.cpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose2_d__type_support.cpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__type_support.cpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__type_support.cpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__type_support.cpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__type_support.cpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.731s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__type_support.cpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__type_support.cpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.732s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__type_support.cpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__type_support.cpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel__rosidl_typesupport_introspection_cpp.hpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__type_support.cpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__type_support.cpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point__type_support.cpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__rosidl_typesupport_introspection_cpp.hpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__type_support.cpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform__type_support.cpp
+[87.733s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist__type_support.cpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__type_support.cpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__type_support.cpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_stamped__type_support.cpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/inertia__rosidl_typesupport_introspection_cpp.hpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__type_support.cpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/wrench__rosidl_typesupport_introspection_cpp.hpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__type_support.cpp
+[87.734s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_cpp.hpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose__type_support.cpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon__rosidl_typesupport_introspection_cpp.hpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/twist_with_covariance_stamped__type_support.cpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/vector3_stamped__type_support.cpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/polygon_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/point32__rosidl_typesupport_introspection_cpp.hpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_stamped__type_support.cpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/accel_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_array__rosidl_typesupport_introspection_cpp.hpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/transform_stamped__type_support.cpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/quaternion__type_support.cpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/include/geometry_msgs/msg/detail/pose_with_covariance_stamped__type_support.cpp
+[87.735s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+[87.736s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[87.736s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+[87.737s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so" to ""
+[87.737s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.sh
+[87.737s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/environment/pythonpath.dsv
+[87.737s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/__init__.py
+[87.774s] Compiling '/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/__init__.py'...
+[87.778s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg
+[87.779s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_accel_with_covariance_stamped_s.c
+[87.779s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_vector3_stamped_s.c
+[87.779s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_accel_with_covariance_s.c
+[87.779s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_point.py
+[87.779s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_accel_with_covariance_stamped.py
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_transform_stamped_s.c
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_stamped_s.c
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_quaternion_s.c
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_wrench_s.c
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_twist_with_covariance.py
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_wrench.py
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_twist.py
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_with_covariance_stamped_s.c
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_polygon_stamped.py
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_accel_stamped.py
+[87.780s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_s.c
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_array_s.c
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_inertia_s.c
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_twist_stamped_s.c
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_wrench_stamped.py
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_vector3_s.c
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_twist_with_covariance_stamped.py
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose2_d_s.c
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_accel_with_covariance.py
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_accel_stamped_s.c
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_twist_with_covariance_s.c
+[87.781s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_transform_s.c
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_polygon_stamped_s.c
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_transform.py
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_quaternion.py
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_polygon_s.c
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_quaternion_stamped_s.c
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_twist_stamped.py
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_vector3_stamped.py
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_stamped.py
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_with_covariance.py
+[87.782s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_inertia_stamped_s.c
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_inertia.py
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_point_stamped_s.c
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_with_covariance_s.c
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose2_d.py
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_point_s.c
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_vector3.py
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_quaternion_stamped.py
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_point32.py
+[87.783s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/__init__.py
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_accel.py
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_accel_s.c
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_transform_stamped.py
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_point_stamped.py
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_wrench_stamped_s.c
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_array.py
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_polygon.py
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose.py
+[87.784s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_point32_s.c
+[87.785s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_inertia_stamped.py
+[87.785s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_pose_with_covariance_stamped.py
+[87.785s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_twist_s.c
+[87.785s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/msg/_twist_with_covariance_stamped_s.c
+[87.785s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[87.786s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[87.786s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[87.787s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[87.787s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[87.788s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[87.788s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[87.789s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages/geometry_msgs/geometry_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[87.789s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__python.so
+[87.790s] -- Set runtime path of "/home/ngy/micro_ros/install/geometry_msgs/lib/libgeometry_msgs__python.so" to ""
+[87.790s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Accel.idl
+[87.790s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.idl
+[87.790s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.idl
+[87.790s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+[87.791s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Inertia.idl
+[87.791s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.idl
+[87.791s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Point.idl
+[87.791s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Point32.idl
+[87.791s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.idl
+[87.792s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Polygon.idl
+[87.792s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.idl
+[87.792s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Pose.idl
+[87.792s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.idl
+[87.792s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.idl
+[87.792s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.idl
+[87.793s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.idl
+[87.793s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+[87.793s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.idl
+[87.793s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.idl
+[87.793s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Transform.idl
+[87.794s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.idl
+[87.794s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Twist.idl
+[87.794s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.idl
+[87.794s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.idl
+[87.794s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+[87.794s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Vector3.idl
+[87.795s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.idl
+[87.795s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Wrench.idl
+[87.795s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.idl
+[87.795s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Accel.msg
+[87.795s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/AccelStamped.msg
+[87.796s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovariance.msg
+[87.796s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/AccelWithCovarianceStamped.msg
+[87.796s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Inertia.msg
+[87.796s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/InertiaStamped.msg
+[87.796s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Point.msg
+[87.797s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Point32.msg
+[87.797s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PointStamped.msg
+[87.797s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Polygon.msg
+[87.797s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PolygonStamped.msg
+[87.797s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Pose.msg
+[87.798s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Pose2D.msg
+[87.798s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PoseArray.msg
+[87.798s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PoseStamped.msg
+[87.798s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovariance.msg
+[87.798s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+[87.798s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Quaternion.msg
+[87.799s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/QuaternionStamped.msg
+[87.799s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Transform.msg
+[87.799s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/TransformStamped.msg
+[87.799s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Twist.msg
+[87.799s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/TwistStamped.msg
+[87.800s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovariance.msg
+[87.800s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/TwistWithCovarianceStamped.msg
+[87.800s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Vector3.msg
+[87.800s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Vector3Stamped.msg
+[87.800s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/Wrench.msg
+[87.801s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/msg/WrenchStamped.msg
+[87.801s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/ament_index/resource_index/package_run_dependencies/geometry_msgs
+[87.801s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/ament_index/resource_index/parent_prefix_path/geometry_msgs
+[87.801s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.sh
+[87.801s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/environment/ament_prefix_path.dsv
+[87.802s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/environment/path.sh
+[87.802s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/environment/path.dsv
+[87.802s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/local_setup.bash
+[87.802s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/local_setup.sh
+[87.802s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/local_setup.zsh
+[87.803s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/local_setup.dsv
+[87.803s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/package.dsv
+[87.803s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/ament_index/resource_index/packages/geometry_msgs
+[87.803s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_generator_cExport.cmake
+[87.803s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_generator_cExport-noconfig.cmake
+[87.804s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport.cmake
+[87.804s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[87.804s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport.cmake
+[87.804s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[87.805s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_generator_cppExport.cmake
+[87.805s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[87.805s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[87.805s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport.cmake
+[87.805s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[87.806s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake-extras.cmake
+[87.806s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[87.806s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[87.806s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[87.806s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[87.807s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[87.807s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[87.807s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig.cmake
+[87.807s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake
+[87.807s] -- Installing: /home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/package.xml
+[87.816s] Invoked command in '/home/ngy/micro_ros/build/geometry_msgs' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ngy/micro_ros/build/geometry_msgs

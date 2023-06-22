@@ -1,0 +1,64 @@
+[0.013s] Invoking command in '/home/ngy/micro_ros/build/microcdr': /usr/bin/cmake /home/ngy/micro_ros/src/eProsima/Micro-CDR -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCDR_ISOLATED_INSTALL=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ngy/micro_ros/install/microcdr
+[0.024s] -- Setting build type to 'Release' as none was specified.
+[0.080s] -- The C compiler identification is GNU 9.4.0
+[0.089s] -- Check for working C compiler: /usr/bin/cc
+[0.160s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.161s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.250s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.311s] -- The CXX compiler identification is GNU 9.4.0
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++
+[0.413s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.414s] -- Detecting CXX compiler ABI info
+[0.496s] -- Detecting CXX compiler ABI info - done
+[0.508s] -- Detecting CXX compile features
+[0.508s] -- Detecting CXX compile features - done
+[0.517s] -- Configuring done
+[0.519s] -- Generating done
+[0.519s] CMake Warning:
+[0.519s]   Manually-specified variables were not used by the project:
+[0.519s] 
+[0.519s]     BUILD_TESTING
+[0.519s] 
+[0.519s] 
+[0.520s] -- Build files have been written to: /home/ngy/micro_ros/build/microcdr
+[0.522s] Invoked command in '/home/ngy/micro_ros/build/microcdr' returned '0': /usr/bin/cmake /home/ngy/micro_ros/src/eProsima/Micro-CDR -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCDR_ISOLATED_INSTALL=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ngy/micro_ros/install/microcdr
+[0.525s] Invoking command in '/home/ngy/micro_ros/build/microcdr': /usr/bin/cmake --build /home/ngy/micro_ros/build/microcdr -- -j12 -l12
+[0.563s] [35m[1mScanning dependencies of target ucdr[0m
+[0.574s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[0.655s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[0.679s] [ 50%] [34m[1mNo update step for 'ucdr'[0m
+[0.680s] [ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[0.704s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[0.714s] loading initial cache file /home/ngy/micro_ros/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[0.728s] -- Configuring done
+[0.731s] -- Generating done
+[0.731s] -- Build files have been written to: /home/ngy/micro_ros/build/microcdr
+[0.749s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[0.780s] [35m[1mScanning dependencies of target microcdr[0m
+[0.792s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[0.792s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[0.793s] [ 50%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[0.793s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[0.793s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[1.231s] [100%] [32m[1mLinking C shared library libmicrocdr.so[0m
+[1.284s] [100%] Built target microcdr
+[1.315s] [34m[1mNo install step for 'ucdr'[0m
+[1.345s] [34m[1mCompleted 'ucdr'[0m
+[1.385s] Built target ucdr
+[1.397s] Invoked command in '/home/ngy/micro_ros/build/microcdr' returned '0': /usr/bin/cmake --build /home/ngy/micro_ros/build/microcdr -- -j12 -l12
+[1.454s] Invoking command in '/home/ngy/micro_ros/build/microcdr': /usr/bin/cmake --install /home/ngy/micro_ros/build/microcdr
+[1.462s] -- Install configuration: "Release"
+[1.462s] -- Installing: /home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so.2.0.1
+[1.462s] -- Installing: /home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so.2.0
+[1.462s] -- Installing: /home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so
+[1.462s] -- Installing: /home/ngy/micro_ros/install/microcdr/include/ucdr
+[1.462s] -- Installing: /home/ngy/micro_ros/install/microcdr/include/ucdr/microcdr.h
+[1.463s] -- Installing: /home/ngy/micro_ros/install/microcdr/include/ucdr/visibility.h
+[1.463s] -- Installing: /home/ngy/micro_ros/install/microcdr/include/ucdr/config.h
+[1.463s] -- Installing: /home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[1.463s] -- Installing: /home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[1.463s] -- Installing: /home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[1.463s] -- Installing: /home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.465s] Invoked command in '/home/ngy/micro_ros/build/microcdr' returned '0': /usr/bin/cmake --install /home/ngy/micro_ros/build/microcdr

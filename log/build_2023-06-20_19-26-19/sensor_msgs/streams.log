@@ -1,0 +1,1140 @@
+[0.086s] Invoking command in '/home/ngy/micro_ros/build/sensor_msgs': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ngy/micro_ros/install/sensor_msgs
+[0.189s] -- The C compiler identification is GNU 9.4.0
+[0.286s] -- The CXX compiler identification is GNU 9.4.0
+[0.301s] -- Check for working C compiler: /usr/bin/cc
+[0.450s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.452s] -- Detecting C compiler ABI info
+[0.590s] -- Detecting C compiler ABI info - done
+[0.618s] -- Detecting C compile features
+[0.619s] -- Detecting C compile features - done
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++
+[0.760s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.762s] -- Detecting CXX compiler ABI info
+[0.929s] -- Detecting CXX compiler ABI info - done
+[0.965s] -- Detecting CXX compile features
+[0.966s] -- Detecting CXX compile features - done
+[0.971s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.046s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.596s] -- Found builtin_interfaces: 1.0.0 (/home/ngy/micro_ros/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[1.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.706s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.931s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.009s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.290s] -- Found geometry_msgs: 2.0.5 (/home/ngy/micro_ros/install/geometry_msgs/share/geometry_msgs/cmake)
+[2.413s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.497s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.319s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.610s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.616s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.738s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.739s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.739s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.740s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.889s] -- Found PythonExtra: .so  
+[5.599s] -- Configuring done
+[6.291s] -- Generating done
+[6.305s] -- Build files have been written to: /home/ngy/micro_ros/build/sensor_msgs
+[6.343s] Invoked command in '/home/ngy/micro_ros/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ngy/micro_ros/install/sensor_msgs
+[6.345s] Invoking command in '/home/ngy/micro_ros/build/sensor_msgs': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ngy/micro_ros/build/sensor_msgs -- -j12 -l12
+[6.815s] [35m[1mScanning dependencies of target sensor_msgs__cpp[0m
+[6.898s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.915s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[24.474s] [  0%] Built target sensor_msgs__cpp
+[25.618s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_generator_c[0m
+[25.667s] [  0%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.o[0m
+[25.754s] [  0%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__functions.c.o[0m
+[25.843s] [  1%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__functions.c.o[0m
+[25.959s] [  1%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__functions.c.o[0m
+[26.074s] [  1%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__functions.c.o[0m
+[26.193s] [  2%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__functions.c.o[0m
+[26.310s] [  2%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__functions.c.o[0m
+[26.422s] [  2%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__functions.c.o[0m
+[26.544s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__functions.c.o[0m
+[26.654s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c.o[0m
+[26.745s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c.o[0m
+[26.855s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__functions.c.o[0m
+[26.949s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__functions.c.o[0m
+[27.060s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__functions.c.o[0m
+[27.185s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__functions.c.o[0m
+[27.307s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__functions.c.o[0m
+[27.425s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__functions.c.o[0m
+[27.545s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__functions.c.o[0m
+[27.644s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__functions.c.o[0m
+[27.762s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__functions.c.o[0m
+[27.882s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__functions.c.o[0m
+[28.001s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__functions.c.o[0m
+[28.145s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__functions.c.o[0m
+[28.266s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__functions.c.o[0m
+[28.357s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.o[0m
+[28.447s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.o[0m
+[28.552s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.o[0m
+[28.674s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.o[0m
+[28.794s] [  9%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_c.so[0m
+[28.904s] [  9%] Built target sensor_msgs__rosidl_generator_c
+[28.938s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35.794s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_introspection_cpp[0m
+[35.839s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__type_support.cpp.o[0m
+[36.299s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/illuminance__type_support.cpp.o[0m
+[36.703s] [  9%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/image__type_support.cpp.o[0m
+[37.166s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/imu__type_support.cpp.o[0m
+[37.580s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joint_state__type_support.cpp.o[0m
+[38.093s] [ 10%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy__type_support.cpp.o[0m
+[38.558s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback__type_support.cpp.o[0m
+[38.924s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp.o[0m
+[39.344s] [ 11%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_echo__type_support.cpp.o[0m
+[39.758s] [ 12%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_scan__type_support.cpp.o[0m
+[40.183s] [ 12%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/magnetic_field__type_support.cpp.o[0m
+[40.563s] [ 12%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp.o[0m
+[41.163s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp.o[0m
+[41.609s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp.o[0m
+[41.981s] [ 13%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp.o[0m
+[42.338s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud__type_support.cpp.o[0m
+[42.837s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud2__type_support.cpp.o[0m
+[43.317s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_field__type_support.cpp.o[0m
+[43.677s] [ 14%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/range__type_support.cpp.o[0m
+[44.039s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/region_of_interest__type_support.cpp.o[0m
+[44.395s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/relative_humidity__type_support.cpp.o[0m
+[44.756s] [ 15%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/temperature__type_support.cpp.o[0m
+[45.121s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/time_reference__type_support.cpp.o[0m
+[45.488s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/srv/detail/set_camera_info__type_support.cpp.o[0m
+[45.886s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp.o[0m
+[46.261s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/compressed_image__type_support.cpp.o[0m
+[46.677s] [ 17%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/channel_float32__type_support.cpp.o[0m
+[47.092s] [ 18%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/camera_info__type_support.cpp.o[0m
+[47.579s] [ 18%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[47.738s] [ 18%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[47.757s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[52.028s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_c[0m
+[52.065s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[52.071s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[52.117s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[52.149s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[52.189s] [ 19%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[52.204s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[52.256s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[52.265s] [ 20%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[52.317s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[52.317s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[52.368s] [ 21%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[52.369s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[52.422s] [ 22%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[52.474s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[52.525s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[52.577s] [ 23%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[52.644s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[52.666s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[52.705s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[52.738s] [ 24%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[52.784s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[52.793s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[52.850s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[52.853s] [ 26%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[52.859s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[52.914s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[52.928s] [ 27%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[52.930s] [ 28%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[52.999s] [ 28%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[53.087s] [ 28%] Built target sensor_msgs__rosidl_typesupport_c
+[53.115s] [ 29%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[53.117s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[53.118s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[58.122s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_introspection_c[0m
+[58.209s] [ 30%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[58.210s] [ 31%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[58.215s] [ 31%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[58.218s] [ 31%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[58.307s] [ 31%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[58.325s] [ 32%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[58.342s] [ 32%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[58.345s] [ 32%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[58.404s] [ 33%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[58.435s] [ 33%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[58.450s] [ 33%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[58.466s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[58.515s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[58.554s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[58.577s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[58.608s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[58.667s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[58.692s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[58.693s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[58.716s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[58.728s] [ 36%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[58.807s] [ 36%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[58.832s] [ 37%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[58.858s] [ 37%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[58.860s] [ 38%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[58.872s] [ 38%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[58.954s] [ 38%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[59.009s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[59.166s] [ 39%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_introspection_c.so[0m
+[59.401s] [ 39%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[59.486s] [ 39%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[59.490s] [ 39%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[59.714s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_microxrcedds_c[0m
+[59.859s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[59.906s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/battery_state__type_support_c.c.o[0m
+[59.922s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/camera_info__type_support_c.c.o[0m
+[59.942s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/channel_float32__type_support_c.c.o[0m
+[59.949s] [ 40%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/compressed_image__type_support_c.c.o[0m
+[60.116s] [ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o[0m
+[60.173s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/joint_state__type_support_c.c.o[0m
+[60.193s] [ 41%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/joy__type_support_c.c.o[0m
+[60.214s] [ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o[0m
+[60.218s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/imu__type_support_c.c.o[0m
+[60.240s] [ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/channel_float32__type_support.cpp.o[0m
+[60.253s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/image__type_support_c.c.o[0m
+[60.264s] [ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/compressed_image__type_support.cpp.o[0m
+[60.444s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/illuminance__type_support_c.c.o[0m
+[60.501s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/fluid_pressure__type_support_c.c.o[0m
+[60.565s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/joy_feedback__type_support_c.c.o[0m
+[60.773s] [ 43%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[60.777s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/joy_feedback_array__type_support_c.c.o[0m
+[60.780s] [ 45%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[61.051s] [ 45%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/laser_echo__type_support_c.c.o[0m
+[61.269s] [ 45%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/laser_scan__type_support_c.c.o[0m
+[61.473s] [ 45%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[61.478s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/magnetic_field__type_support_c.c.o[0m
+[61.689s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/multi_dof_joint_state__type_support_c.c.o[0m
+[61.773s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/multi_echo_laser_scan__type_support_c.c.o[0m
+[61.773s] [ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy__type_support.cpp.o[0m
+[61.808s] [ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/illuminance__type_support.cpp.o[0m
+[61.834s] [ 47%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/fluid_pressure__type_support.cpp.o[0m
+[61.842s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/nav_sat_fix__type_support_c.c.o[0m
+[61.891s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/nav_sat_status__type_support_c.c.o[0m
+[61.923s] [ 49%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback__type_support.cpp.o[0m
+[62.033s] [ 49%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/point_cloud__type_support_c.c.o[0m
+[62.058s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/point_cloud2__type_support_c.c.o[0m
+[62.059s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_echo__type_support.cpp.o[0m
+[62.139s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback_array__type_support.cpp.o[0m
+[62.195s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/point_field__type_support_c.c.o[0m
+[62.216s] [ 50%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/range__type_support_c.c.o[0m
+[62.368s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/region_of_interest__type_support_c.c.o[0m
+[62.436s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/relative_humidity__type_support_c.c.o[0m
+[62.554s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/temperature__type_support_c.c.o[0m
+[62.566s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/msg/detail/microxrcedds/time_reference__type_support_c.c.o[0m
+[62.618s] [ 52%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_scan__type_support.cpp.o[0m
+[62.676s] [ 53%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/sensor_msgs/srv/detail/microxrcedds/set_camera_info__type_support_c.c.o[0m
+[62.714s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/magnetic_field__type_support.cpp.o[0m
+[62.738s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_dof_joint_state__type_support.cpp.o[0m
+[62.808s] [ 53%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[63.008s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_echo_laser_scan__type_support.cpp.o[0m
+[63.030s] [ 53%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_c
+[63.079s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_status__type_support.cpp.o[0m
+[63.089s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud__type_support.cpp.o[0m
+[63.254s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud2__type_support.cpp.o[0m
+[63.396s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_field__type_support.cpp.o[0m
+[63.767s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/range__type_support.cpp.o[0m
+[63.781s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_fix__type_support.cpp.o[0m
+[63.921s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o[0m
+[64.132s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/relative_humidity__type_support.cpp.o[0m
+[64.285s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o[0m
+[64.311s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/time_reference__type_support.cpp.o[0m
+[64.454s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp.o[0m
+[65.281s] [ 57%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[65.469s] [ 57%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[65.490s] [ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[66.475s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_cpp[0m
+[66.517s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[66.517s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[66.521s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[66.912s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[66.918s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[67.179s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[67.180s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[67.414s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[67.540s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[67.575s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[67.633s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/battery_state__type_support_cpp.cpp.o[0m
+[67.661s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/camera_info__type_support_cpp.cpp.o[0m
+[67.667s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[67.692s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[67.804s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/channel_float32__type_support_cpp.cpp.o[0m
+[67.804s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[68.003s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[68.201s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[68.301s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[68.400s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[68.491s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[68.492s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/image__type_support_cpp.cpp.o[0m
+[68.497s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/illuminance__type_support_cpp.cpp.o[0m
+[68.633s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/fluid_pressure__type_support_cpp.cpp.o[0m
+[68.730s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[68.748s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/imu__type_support_cpp.cpp.o[0m
+[68.931s] [ 67%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[69.124s] [ 67%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[69.243s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[69.245s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/joy_feedback__type_support_cpp.cpp.o[0m
+[69.353s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/joy__type_support_cpp.cpp.o[0m
+[69.397s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/joint_state__type_support_cpp.cpp.o[0m
+[69.475s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/compressed_image__type_support_cpp.cpp.o[0m
+[69.534s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[69.677s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[69.706s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/laser_echo__type_support_cpp.cpp.o[0m
+[69.868s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[69.934s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[70.006s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/laser_scan__type_support_cpp.cpp.o[0m
+[70.239s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[70.288s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/magnetic_field__type_support_cpp.cpp.o[0m
+[70.314s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/joy_feedback_array__type_support_cpp.cpp.o[0m
+[70.428s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[70.473s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/multi_dof_joint_state__type_support_cpp.cpp.o[0m
+[70.586s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/multi_echo_laser_scan__type_support_cpp.cpp.o[0m
+[70.664s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[70.745s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/point_cloud__type_support_cpp.cpp.o[0m
+[70.842s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/nav_sat_status__type_support_cpp.cpp.o[0m
+[71.136s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/point_field__type_support_cpp.cpp.o[0m
+[71.174s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/range__type_support_cpp.cpp.o[0m
+[71.329s] [ 75%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[71.464s] [ 75%] Built target sensor_msgs__rosidl_typesupport_cpp
+[71.505s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/temperature__type_support_cpp.cpp.o[0m
+[71.538s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/time_reference__type_support_cpp.cpp.o[0m
+[71.617s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/srv/detail/microxrcedds/set_camera_info__type_support_cpp.cpp.o[0m
+[71.767s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/relative_humidity__type_support_cpp.cpp.o[0m
+[71.869s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/region_of_interest__type_support_cpp.cpp.o[0m
+[71.904s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/point_cloud2__type_support_cpp.cpp.o[0m
+[72.084s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/sensor_msgs/msg/detail/microxrcedds/nav_sat_fix__type_support_cpp.cpp.o[0m
+[72.542s] [ 77%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[72.707s] [ 77%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_cpp
+[72.883s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_c[0m
+[72.952s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/battery_state__type_support_c.cpp.o[0m
+[72.952s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/camera_info__type_support_c.cpp.o[0m
+[72.953s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/channel_float32__type_support_c.cpp.o[0m
+[72.954s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/fluid_pressure__type_support_c.cpp.o[0m
+[72.957s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/compressed_image__type_support_c.cpp.o[0m
+[73.434s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback_array__type_support_c.cpp.o[0m
+[73.445s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_echo__type_support_c.cpp.o[0m
+[73.464s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_scan__type_support_c.cpp.o[0m
+[73.597s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/magnetic_field__type_support_c.cpp.o[0m
+[73.614s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support_c.cpp.o[0m
+[73.912s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy__type_support_c.cpp.o[0m
+[73.912s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback__type_support_c.cpp.o[0m
+[73.917s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support_c.cpp.o[0m
+[73.931s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_fix__type_support_c.cpp.o[0m
+[73.970s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_status__type_support_c.cpp.o[0m
+[74.085s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud__type_support_c.cpp.o[0m
+[74.236s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud2__type_support_c.cpp.o[0m
+[74.439s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_field__type_support_c.cpp.o[0m
+[74.444s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/range__type_support_c.cpp.o[0m
+[74.604s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/region_of_interest__type_support_c.cpp.o[0m
+[74.695s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/image__type_support_c.cpp.o[0m
+[74.695s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[74.696s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joint_state__type_support_c.cpp.o[0m
+[74.696s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/relative_humidity__type_support_c.cpp.o[0m
+[74.711s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/temperature__type_support_c.cpp.o[0m
+[74.765s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/time_reference__type_support_c.cpp.o[0m
+[75.070s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/srv/detail/set_camera_info__type_support_c.cpp.o[0m
+[75.126s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/illuminance__type_support_c.cpp.o[0m
+[75.723s] [ 86%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[75.837s] [ 86%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[75.851s] [35m[1mScanning dependencies of target sensor_msgs[0m
+[75.866s] [ 86%] Built target sensor_msgs
+[75.881s] [35m[1mScanning dependencies of target sensor_msgs__py[0m
+[75.896s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[82.284s] [ 86%] Built target sensor_msgs__py
+[82.297s] [35m[1mScanning dependencies of target sensor_msgs__python[0m
+[82.380s] [ 86%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_channel_float32_s.c.o[0m
+[82.381s] [ 86%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_illuminance_s.c.o[0m
+[82.382s] [ 87%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_imu_s.c.o[0m
+[82.383s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_battery_state_s.c.o[0m
+[82.383s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_camera_info_s.c.o[0m
+[82.384s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_compressed_image_s.c.o[0m
+[82.384s] [ 88%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_image_s.c.o[0m
+[82.384s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_fluid_pressure_s.c.o[0m
+[82.492s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_array_s.c.o[0m
+[82.495s] [ 89%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_laser_echo_s.c.o[0m
+[82.518s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_laser_scan_s.c.o[0m
+[82.553s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_magnetic_field_s.c.o[0m
+[82.553s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_multi_dof_joint_state_s.c.o[0m
+[82.554s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_multi_echo_laser_scan_s.c.o[0m
+[82.581s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_fix_s.c.o[0m
+[82.590s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c.o[0m
+[82.643s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud_s.c.o[0m
+[82.687s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud2_s.c.o[0m
+[82.688s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_s.c.o[0m
+[82.690s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_joy_s.c.o[0m
+[82.691s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_joint_state_s.c.o[0m
+[82.709s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_point_field_s.c.o[0m
+[82.759s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_range_s.c.o[0m
+[82.782s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_region_of_interest_s.c.o[0m
+[82.790s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_relative_humidity_s.c.o[0m
+[82.805s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_time_reference_s.c.o[0m
+[82.805s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/msg/_temperature_s.c.o[0m
+[82.838s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__python.dir/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c.o[0m
+[83.068s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/libsensor_msgs__python.so[0m
+[83.144s] [ 96%] Built target sensor_msgs__python
+[83.160s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_c__pyext[0m
+[83.160s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[83.160s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[83.161s] [35m[1mScanning dependencies of target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[83.195s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[83.196s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[83.197s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[83.201s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[83.407s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[83.407s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[83.418s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[83.418s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[83.470s] [100%] Built target sensor_msgs__rosidl_typesupport_introspection_c__pyext
+[83.470s] [100%] Built target sensor_msgs__rosidl_typesupport_c__pyext
+[83.485s] [100%] Built target sensor_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[83.520s] [100%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c__pyext
+[83.537s] Invoked command in '/home/ngy/micro_ros/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ngy/micro_ros/build/sensor_msgs -- -j12 -l12
+[84.783s] Invoking command in '/home/ngy/micro_ros/build/sensor_msgs': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ngy/micro_ros/build/sensor_msgs
+[84.795s] -- Install configuration: ""
+[84.795s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[84.795s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.796s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv
+[84.796s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/set_camera_info.h
+[84.796s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail
+[84.796s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__functions.h
+[84.796s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[84.796s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__functions.c
+[84.797s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__struct.h
+[84.797s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg
+[84.797s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/channel_float32.h
+[84.797s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/battery_state.h
+[84.797s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/multi_dof_joint_state.h
+[84.797s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/region_of_interest.h
+[84.798s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/magnetic_field.h
+[84.798s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/laser_scan.h
+[84.798s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/camera_info.h
+[84.798s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/multi_echo_laser_scan.h
+[84.798s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/temperature.h
+[84.798s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/compressed_image.h
+[84.799s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/joy_feedback.h
+[84.799s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/range.h
+[84.799s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail
+[84.799s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__functions.h
+[84.799s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__functions.c
+[84.799s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__struct.h
+[84.800s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__functions.c
+[84.800s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[84.800s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__struct.h
+[84.800s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__struct.h
+[84.800s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__struct.h
+[84.800s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__functions.c
+[84.801s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[84.801s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__functions.c
+[84.801s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__functions.c
+[84.801s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[84.801s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__struct.h
+[84.801s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__functions.h
+[84.802s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__struct.h
+[84.802s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[84.802s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__type_support.h
+[84.802s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[84.802s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__functions.h
+[84.803s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__functions.c
+[84.803s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__type_support.h
+[84.803s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__type_support.h
+[84.803s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__functions.h
+[84.803s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__functions.c
+[84.803s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[84.804s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__struct.h
+[84.804s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__type_support.h
+[84.804s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__struct.h
+[84.804s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__struct.h
+[84.804s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__functions.c
+[84.805s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__functions.h
+[84.805s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__struct.h
+[84.805s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[84.805s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__functions.c
+[84.805s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__type_support.h
+[84.805s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[84.806s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__type_support.h
+[84.806s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__functions.h
+[84.806s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__functions.h
+[84.806s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__functions.h
+[84.806s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__functions.c
+[84.807s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__functions.c
+[84.807s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[84.807s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__type_support.h
+[84.807s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__functions.h
+[84.807s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__struct.h
+[84.807s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__type_support.h
+[84.807s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__type_support.h
+[84.808s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__functions.c
+[84.808s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[84.808s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__type_support.h
+[84.808s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[84.808s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c
+[84.808s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__type_support.h
+[84.809s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__struct.h
+[84.809s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__functions.c
+[84.809s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__functions.c
+[84.809s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[84.809s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__struct.h
+[84.810s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[84.810s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[84.810s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__type_support.h
+[84.810s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__functions.h
+[84.810s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__functions.h
+[84.810s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__struct.h
+[84.811s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__functions.c
+[84.811s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c
+[84.811s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__functions.h
+[84.811s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[84.811s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__functions.c
+[84.812s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__functions.h
+[84.812s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[84.812s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__functions.c
+[84.812s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[84.812s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__functions.h
+[84.812s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[84.813s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__functions.h
+[84.813s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__functions.h
+[84.813s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__functions.c
+[84.813s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__struct.h
+[84.813s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__functions.c
+[84.813s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__functions.c
+[84.814s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[84.814s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__struct.h
+[84.814s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__functions.c
+[84.814s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__type_support.h
+[84.814s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__functions.c
+[84.815s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__type_support.h
+[84.815s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__functions.h
+[84.815s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__struct.h
+[84.815s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__struct.h
+[84.815s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__type_support.h
+[84.816s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__functions.c
+[84.816s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[84.816s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__type_support.h
+[84.816s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[84.816s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[84.817s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__struct.h
+[84.817s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__functions.c
+[84.817s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__functions.c
+[84.817s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__functions.h
+[84.817s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__struct.h
+[84.817s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__struct.h
+[84.817s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__functions.h
+[84.818s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__functions.h
+[84.818s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[84.818s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__functions.h
+[84.818s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/point_cloud2.h
+[84.818s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/point_cloud.h
+[84.818s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/relative_humidity.h
+[84.818s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/nav_sat_fix.h
+[84.818s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/image.h
+[84.819s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/joy_feedback_array.h
+[84.819s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/joint_state.h
+[84.819s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/joy.h
+[84.819s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[84.819s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/imu.h
+[84.819s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/point_field.h
+[84.820s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/time_reference.h
+[84.820s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/fluid_pressure.h
+[84.820s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/laser_echo.h
+[84.820s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/nav_sat_status.h
+[84.820s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/illuminance.h
+[84.820s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+[84.821s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+[84.821s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+[84.821s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so" to ""
+[84.821s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.821s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv
+[84.821s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail
+[84.822s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/microxrcedds
+[84.822s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_microxrcedds_c.h
+[84.822s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg
+[84.822s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail
+[84.822s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_microxrcedds_c.h
+[84.822s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_microxrcedds_c.h
+[84.823s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds
+[84.823s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_microxrcedds_c.h
+[84.823s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_microxrcedds_c.h
+[84.823s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_microxrcedds_c.h
+[84.823s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_microxrcedds_c.h
+[84.823s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_microxrcedds_c.h
+[84.824s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_microxrcedds_c.h
+[84.824s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_microxrcedds_c.h
+[84.824s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_microxrcedds_c.h
+[84.824s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_microxrcedds_c.h
+[84.824s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_microxrcedds_c.h
+[84.824s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_microxrcedds_c.h
+[84.825s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_microxrcedds_c.h
+[84.825s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_microxrcedds_c.h
+[84.825s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_microxrcedds_c.h
+[84.825s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_microxrcedds_c.h
+[84.825s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_microxrcedds_c.h
+[84.825s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_microxrcedds_c.h
+[84.826s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_microxrcedds_c.h
+[84.826s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_microxrcedds_c.h
+[84.826s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_microxrcedds_c.h
+[84.826s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_microxrcedds_c.h
+[84.826s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_microxrcedds_c.h
+[84.826s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_microxrcedds_c.h
+[84.827s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_microxrcedds_c.h
+[84.827s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_microxrcedds_c.h
+[84.827s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[84.827s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_c.so
+[84.827s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[84.827s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.828s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv
+[84.828s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail
+[84.828s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[84.828s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg
+[84.828s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail
+[84.828s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[84.828s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[84.829s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[84.829s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[84.829s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[84.829s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[84.829s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[84.829s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[84.830s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[84.830s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[84.830s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[84.830s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[84.830s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[84.830s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[84.830s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[84.830s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[84.831s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[84.831s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[84.831s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[84.831s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[84.831s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[84.832s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[84.832s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[84.832s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[84.832s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[84.832s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[84.832s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[84.832s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[84.833s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[84.833s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[84.833s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.833s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv
+[84.833s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail
+[84.833s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[84.833s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/dds_fastrtps
+[84.834s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg
+[84.834s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[84.834s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail
+[84.834s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[84.834s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[84.834s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[84.834s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[84.835s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[84.835s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[84.835s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[84.835s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[84.835s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[84.835s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[84.835s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[84.836s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[84.836s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[84.836s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[84.836s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[84.836s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[84.836s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[84.837s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[84.837s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[84.837s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[84.837s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[84.837s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/dds_fastrtps
+[84.837s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[84.837s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[84.837s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[84.838s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[84.838s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[84.838s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[84.838s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[84.838s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[84.839s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.839s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv
+[84.839s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail
+[84.839s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[84.839s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[84.839s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg
+[84.839s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[84.840s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail
+[84.840s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[84.840s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[84.840s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__type_support.c
+[84.840s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[84.840s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[84.840s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[84.841s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[84.841s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[84.841s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[84.841s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[84.841s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__type_support.c
+[84.841s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__type_support.c
+[84.842s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__type_support.c
+[84.842s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[84.842s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[84.842s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[84.842s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[84.842s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__type_support.c
+[84.842s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__type_support.c
+[84.843s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__type_support.c
+[84.843s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[84.843s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[84.843s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__type_support.c
+[84.843s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[84.843s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[84.843s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[84.844s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[84.844s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[84.844s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[84.844s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[84.844s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[84.844s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__type_support.c
+[84.844s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__type_support.c
+[84.844s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[84.845s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[84.845s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[84.845s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[84.845s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[84.845s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[84.845s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[84.846s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[84.846s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[84.846s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__type_support.c
+[84.846s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__type_support.c
+[84.846s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[84.846s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__type_support.c
+[84.846s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[84.846s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[84.847s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[84.847s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__type_support.c
+[84.847s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__type_support.c
+[84.847s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[84.847s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[84.847s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__type_support.c
+[84.848s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[84.848s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[84.848s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+[84.848s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+[84.848s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.848s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv
+[84.849s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/set_camera_info.hpp
+[84.849s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail
+[84.849s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[84.849s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[84.849s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[84.849s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg
+[84.849s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/joy.hpp
+[84.849s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/nav_sat_fix.hpp
+[84.849s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/region_of_interest.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/compressed_image.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/point_cloud2.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/temperature.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/point_cloud.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/nav_sat_status.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/laser_scan.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/joy_feedback.hpp
+[84.850s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__builder.hpp
+[84.850s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__builder.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__traits.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__traits.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__traits.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__builder.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__builder.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[84.851s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__struct.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__traits.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__traits.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[84.852s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[84.853s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__builder.hpp
+[84.853s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[84.853s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__struct.hpp
+[84.853s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[84.853s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__traits.hpp
+[84.853s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[84.853s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__struct.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__traits.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__traits.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[84.854s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[84.855s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[84.855s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[84.855s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[84.855s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[84.855s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__traits.hpp
+[84.855s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[84.855s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[84.855s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__struct.hpp
+[84.856s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[84.856s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__struct.hpp
+[84.856s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__traits.hpp
+[84.856s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[84.856s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__builder.hpp
+[84.856s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__struct.hpp
+[84.856s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[84.857s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[84.857s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__struct.hpp
+[84.857s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[84.857s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[84.857s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[84.857s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__struct.hpp
+[84.857s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__builder.hpp
+[84.858s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__struct.hpp
+[84.858s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__struct.hpp
+[84.858s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[84.858s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[84.858s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[84.858s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__traits.hpp
+[84.858s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[84.858s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__struct.hpp
+[84.859s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[84.859s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[84.859s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[84.859s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[84.859s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__builder.hpp
+[84.859s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[84.859s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__builder.hpp
+[84.860s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[84.860s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__builder.hpp
+[84.860s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[84.860s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__builder.hpp
+[84.860s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/channel_float32.hpp
+[84.860s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/joint_state.hpp
+[84.860s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/magnetic_field.hpp
+[84.861s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/fluid_pressure.hpp
+[84.861s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/time_reference.hpp
+[84.861s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/relative_humidity.hpp
+[84.861s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/illuminance.hpp
+[84.861s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/joy_feedback_array.hpp
+[84.861s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/point_field.hpp
+[84.862s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/battery_state.hpp
+[84.862s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/range.hpp
+[84.862s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/laser_echo.hpp
+[84.862s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/camera_info.hpp
+[84.862s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/image.hpp
+[84.862s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/imu.hpp
+[84.863s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/multi_dof_joint_state.hpp
+[84.863s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.863s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv
+[84.863s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail
+[84.863s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/microxrcedds
+[84.863s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/microxrcedds/set_camera_info__type_support_cpp.cpp
+[84.863s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.864s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg
+[84.864s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail
+[84.864s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.864s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.864s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds
+[84.864s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_cloud__type_support_cpp.cpp
+[84.864s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/multi_echo_laser_scan__type_support_cpp.cpp
+[84.865s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/imu__type_support_cpp.cpp
+[84.865s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/nav_sat_fix__type_support_cpp.cpp
+[84.865s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy_feedback_array__type_support_cpp.cpp
+[84.865s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/fluid_pressure__type_support_cpp.cpp
+[84.865s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/region_of_interest__type_support_cpp.cpp
+[84.865s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/nav_sat_status__type_support_cpp.cpp
+[84.865s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/compressed_image__type_support_cpp.cpp
+[84.866s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/illuminance__type_support_cpp.cpp
+[84.866s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/range__type_support_cpp.cpp
+[84.866s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/temperature__type_support_cpp.cpp
+[84.866s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/multi_dof_joint_state__type_support_cpp.cpp
+[84.866s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/image__type_support_cpp.cpp
+[84.866s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy_feedback__type_support_cpp.cpp
+[84.866s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/battery_state__type_support_cpp.cpp
+[84.867s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/camera_info__type_support_cpp.cpp
+[84.867s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joint_state__type_support_cpp.cpp
+[84.867s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_field__type_support_cpp.cpp
+[84.867s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/relative_humidity__type_support_cpp.cpp
+[84.867s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/point_cloud2__type_support_cpp.cpp
+[84.867s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/laser_echo__type_support_cpp.cpp
+[84.867s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/joy__type_support_cpp.cpp
+[84.867s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/channel_float32__type_support_cpp.cpp
+[84.868s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/time_reference__type_support_cpp.cpp
+[84.868s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/magnetic_field__type_support_cpp.cpp
+[84.868s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/microxrcedds/laser_scan__type_support_cpp.cpp
+[84.868s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.868s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.868s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.868s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.869s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.870s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.870s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.870s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.870s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.870s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.870s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.870s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.870s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.871s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.871s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.871s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.871s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_microxrcedds_cpp.hpp
+[84.871s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[84.871s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[84.871s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[84.872s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.872s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv
+[84.872s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail
+[84.872s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__type_support.cpp
+[84.872s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[84.872s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg
+[84.872s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail
+[84.872s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__type_support.cpp
+[84.872s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__type_support.cpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__type_support.cpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[84.873s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__type_support.cpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__type_support.cpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp
+[84.874s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/temperature__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/imu__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/time_reference__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/magnetic_field__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_echo__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__type_support.cpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[84.875s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__type_support.cpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/camera_info__type_support.cpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/battery_state__type_support.cpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/channel_float32__type_support.cpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/compressed_image__type_support.cpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/point_field__type_support.cpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/range__type_support.cpp
+[84.876s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[84.877s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[84.877s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[84.877s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[84.877s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+[84.877s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+[84.877s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+[84.877s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/__init__.py
+[84.912s] Compiling '/home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/__init__.py'...
+[84.917s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg
+[84.918s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_nav_sat_status.py
+[84.918s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_joy_feedback_s.c
+[84.918s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_image_s.c
+[84.918s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_laser_scan_s.c
+[84.918s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_temperature.py
+[84.919s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_imu.py
+[84.919s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_magnetic_field_s.c
+[84.919s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_battery_state.py
+[84.919s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_point_cloud2.py
+[84.919s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_magnetic_field.py
+[84.919s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_temperature_s.c
+[84.920s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[84.920s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_relative_humidity_s.c
+[84.920s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_point_field.py
+[84.920s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_point_cloud.py
+[84.920s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_laser_echo.py
+[84.920s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[84.921s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_imu_s.c
+[84.921s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_joy.py
+[84.921s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_joint_state.py
+[84.921s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_point_field_s.c
+[84.921s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_compressed_image.py
+[84.921s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_compressed_image_s.c
+[84.922s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_time_reference_s.c
+[84.922s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_joy_s.c
+[84.922s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_illuminance.py
+[84.922s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_time_reference.py
+[84.922s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_joy_feedback_array.py
+[84.922s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_joint_state_s.c
+[84.922s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_camera_info_s.c
+[84.923s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_fluid_pressure.py
+[84.923s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_relative_humidity.py
+[84.923s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[84.923s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_range_s.c
+[84.923s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_channel_float32.py
+[84.923s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[84.923s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_camera_info.py
+[84.923s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/__init__.py
+[84.924s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_region_of_interest_s.c
+[84.924s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_range.py
+[84.924s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[84.924s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_point_cloud_s.c
+[84.924s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_battery_state_s.c
+[84.924s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_region_of_interest.py
+[84.924s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_image.py
+[84.925s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[84.925s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_channel_float32_s.c
+[84.925s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[84.925s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_point_cloud2_s.c
+[84.925s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_nav_sat_fix.py
+[84.925s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_illuminance_s.c
+[84.925s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_laser_scan.py
+[84.925s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_joy_feedback.py
+[84.926s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_laser_echo_s.c
+[84.926s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[84.926s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/srv
+[84.926s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/srv/_set_camera_info_s.c
+[84.926s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/srv/_set_camera_info.py
+[84.926s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/srv/__init__.py
+[84.926s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[84.926s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[84.926s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[84.927s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[84.927s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[84.928s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[84.928s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[84.929s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/python3.8/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[84.929s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__python.so
+[84.930s] -- Set runtime path of "/home/ngy/micro_ros/install/sensor_msgs/lib/libsensor_msgs__python.so" to ""
+[84.930s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+[84.930s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+[84.930s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+[84.931s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+[84.931s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+[84.931s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+[84.931s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+[84.931s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+[84.932s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+[84.932s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+[84.932s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+[84.932s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[84.933s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+[84.933s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+[84.933s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+[84.933s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+[84.933s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[84.934s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+[84.934s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+[84.934s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+[84.934s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+[84.934s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+[84.935s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+[84.935s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+[84.935s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+[84.935s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+[84.936s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+[84.936s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+[84.936s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+[84.937s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+[84.937s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+[84.937s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+[84.938s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+[84.938s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+[84.938s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+[84.939s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+[84.939s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+[84.939s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+[84.939s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+[84.940s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[84.940s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+[84.940s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+[84.941s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+[84.941s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+[84.941s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[84.941s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+[84.942s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+[84.942s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+[84.942s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+[84.943s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+[84.943s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+[84.943s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+[84.944s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+[84.944s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+[84.944s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+[84.944s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+[84.945s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Request.msg
+[84.945s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo_Response.msg
+[84.945s] -- Up-to-date: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs
+[84.945s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/distortion_models.hpp
+[84.946s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/point_cloud2_iterator.hpp
+[84.946s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/point_field_conversion.hpp
+[84.946s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/point_cloud_conversion.hpp
+[84.946s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/image_encodings.hpp
+[84.946s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/impl
+[84.946s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/impl/point_cloud2_iterator.hpp
+[84.947s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/include/sensor_msgs/fill_image.hpp
+[84.947s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[84.947s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[84.948s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+[84.948s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+[84.948s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+[84.949s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+[84.949s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+[84.949s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+[84.949s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+[84.950s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+[84.950s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/package.dsv
+[84.950s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+[84.951s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_generator_cExport.cmake
+[84.951s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[84.951s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[84.952s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[84.952s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[84.952s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[84.953s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_generator_cppExport.cmake
+[84.953s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[84.954s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[84.954s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[84.954s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[84.955s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[84.955s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[84.955s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[84.955s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[84.956s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[84.956s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[84.956s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[84.957s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[84.957s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[84.957s] -- Installing: /home/ngy/micro_ros/install/sensor_msgs/share/sensor_msgs/package.xml
+[84.965s] Invoked command in '/home/ngy/micro_ros/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ngy/micro_ros/build/sensor_msgs

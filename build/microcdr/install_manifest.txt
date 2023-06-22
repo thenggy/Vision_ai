@@ -1,0 +1,10 @@
+/home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so.2.0.1
+/home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so.2.0
+/home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so
+/home/ngy/micro_ros/install/microcdr/include/ucdr/microcdr.h
+/home/ngy/micro_ros/install/microcdr/include/ucdr/visibility.h
+/home/ngy/micro_ros/install/microcdr/include/ucdr/config.h
+/home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+/home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+/home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+/home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake

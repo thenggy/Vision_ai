@@ -1,0 +1,1313 @@
+[0.141s] Invoking command in '/home/ngy/micro_ros/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/microxrcedds_client:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds/lib:/home/ngy/micro_ros/install/rclc/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/example_interfaces/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/micro_ros/install/rcl_interfaces/lib:/home/ngy/micro_ros/install/microxrcedds_client/lib:/home/ngy/micro_ros/install/complex_msgs/lib:/home/ngy/micro_ros/install/action_msgs/lib:/home/ngy/micro_ros/install/unique_identifier_msgs/lib:/home/ngy/micro_ros/install/microcdr/lib:/home/ngy/micro_ros/install/micro_ros_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:/home/ngy/microros_ws/install/visualization_msgs/lib:/home/ngy/microros_ws/install/test_msgs/lib:/home/ngy/microros_ws/install/example_interfaces/lib:/home/ngy/microros_ws/install/action_msgs/lib:/home/ngy/microros_ws/install/unique_identifier_msgs/lib:/home/ngy/microros_ws/install/trajectory_msgs/lib:/home/ngy/microros_ws/install/stereo_msgs/lib:/home/ngy/microros_ws/install/std_srvs/lib:/home/ngy/microros_ws/install/shape_msgs/lib:/home/ngy/microros_ws/install/sensor_msgs/lib:/home/ngy/microros_ws/install/nav_msgs/lib:/home/ngy/microros_ws/install/diagnostic_msgs/lib:/home/ngy/microros_ws/install/geometry_msgs/lib:/home/ngy/microros_ws/install/actionlib_msgs/lib:/home/ngy/microros_ws/install/std_msgs/lib:/home/ngy/microros_ws/install/statistics_msgs/lib:/home/ngy/microros_ws/install/rmw_microxrcedds/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/microros_ws/install/rosgraph_msgs/lib:/home/ngy/microros_ws/install/rclc_parameter/lib:/home/ngy/microros_ws/install/rclc/lib:/home/ngy/microros_ws/install/composition_interfaces/lib:/home/ngy/microros_ws/install/rcl_interfaces/lib:/home/ngy/microros_ws/install/microxrcedds_client/lib:/home/ngy/microros_ws/install/microcdr/lib:/home/ngy/microros_ws/install/micro_ros_msgs/lib:/home/ngy/microros_ws/install/lifecycle_msgs/lib:/home/ngy/microros_ws/install/complex_msgs/lib:/home/ngy/microros_ws/install/builtin_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/visualization_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/test_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/trajectory_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/stereo_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/shape_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/nav_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/diagnostic_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/actionlib_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/statistics_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosgraph_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/composition_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ngy/micro_ros/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ngy/micro_ros/install/micro_ros_demos_rclc
+[2.401s] -- The C compiler identification is GNU 9.4.0
+[2.402s] -- The CXX compiler identification is GNU 9.4.0
+[2.403s] -- Check for working C compiler: /usr/bin/cc
+[2.403s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.404s] -- Detecting C compiler ABI info
+[2.405s] -- Detecting C compiler ABI info - done
+[2.405s] -- Detecting C compile features
+[2.405s] -- Detecting C compile features - done
+[2.405s] -- Check for working CXX compiler: /usr/bin/c++
+[2.405s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.405s] -- Detecting CXX compiler ABI info
+[2.406s] -- Detecting CXX compiler ABI info - done
+[2.406s] -- Detecting CXX compile features
+[2.406s] -- Detecting CXX compile features - done
+[2.406s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.406s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.406s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.461s] -- Configuring done
+[2.521s] -- Generating done
+[2.528s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc
+[2.537s] Invoked command in '/home/ngy/micro_ros/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/microxrcedds_client:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds/lib:/home/ngy/micro_ros/install/rclc/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/example_interfaces/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/micro_ros/install/rcl_interfaces/lib:/home/ngy/micro_ros/install/microxrcedds_client/lib:/home/ngy/micro_ros/install/complex_msgs/lib:/home/ngy/micro_ros/install/action_msgs/lib:/home/ngy/micro_ros/install/unique_identifier_msgs/lib:/home/ngy/micro_ros/install/microcdr/lib:/home/ngy/micro_ros/install/micro_ros_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:/home/ngy/microros_ws/install/visualization_msgs/lib:/home/ngy/microros_ws/install/test_msgs/lib:/home/ngy/microros_ws/install/example_interfaces/lib:/home/ngy/microros_ws/install/action_msgs/lib:/home/ngy/microros_ws/install/unique_identifier_msgs/lib:/home/ngy/microros_ws/install/trajectory_msgs/lib:/home/ngy/microros_ws/install/stereo_msgs/lib:/home/ngy/microros_ws/install/std_srvs/lib:/home/ngy/microros_ws/install/shape_msgs/lib:/home/ngy/microros_ws/install/sensor_msgs/lib:/home/ngy/microros_ws/install/nav_msgs/lib:/home/ngy/microros_ws/install/diagnostic_msgs/lib:/home/ngy/microros_ws/install/geometry_msgs/lib:/home/ngy/microros_ws/install/actionlib_msgs/lib:/home/ngy/microros_ws/install/std_msgs/lib:/home/ngy/microros_ws/install/statistics_msgs/lib:/home/ngy/microros_ws/install/rmw_microxrcedds/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/microros_ws/install/rosgraph_msgs/lib:/home/ngy/microros_ws/install/rclc_parameter/lib:/home/ngy/microros_ws/install/rclc/lib:/home/ngy/microros_ws/install/composition_interfaces/lib:/home/ngy/microros_ws/install/rcl_interfaces/lib:/home/ngy/microros_ws/install/microxrcedds_client/lib:/home/ngy/microros_ws/install/microcdr/lib:/home/ngy/microros_ws/install/micro_ros_msgs/lib:/home/ngy/microros_ws/install/lifecycle_msgs/lib:/home/ngy/microros_ws/install/complex_msgs/lib:/home/ngy/microros_ws/install/builtin_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/visualization_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/test_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/trajectory_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/stereo_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/shape_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/nav_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/diagnostic_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/actionlib_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/statistics_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosgraph_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/composition_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ngy/micro_ros/src/uros/micro-ROS-demos/rclc -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/ngy/micro_ros/install/micro_ros_demos_rclc
+[2.544s] Invoking command in '/home/ngy/micro_ros/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/microxrcedds_client:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds/lib:/home/ngy/micro_ros/install/rclc/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/example_interfaces/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/micro_ros/install/rcl_interfaces/lib:/home/ngy/micro_ros/install/microxrcedds_client/lib:/home/ngy/micro_ros/install/complex_msgs/lib:/home/ngy/micro_ros/install/action_msgs/lib:/home/ngy/micro_ros/install/unique_identifier_msgs/lib:/home/ngy/micro_ros/install/microcdr/lib:/home/ngy/micro_ros/install/micro_ros_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:/home/ngy/microros_ws/install/visualization_msgs/lib:/home/ngy/microros_ws/install/test_msgs/lib:/home/ngy/microros_ws/install/example_interfaces/lib:/home/ngy/microros_ws/install/action_msgs/lib:/home/ngy/microros_ws/install/unique_identifier_msgs/lib:/home/ngy/microros_ws/install/trajectory_msgs/lib:/home/ngy/microros_ws/install/stereo_msgs/lib:/home/ngy/microros_ws/install/std_srvs/lib:/home/ngy/microros_ws/install/shape_msgs/lib:/home/ngy/microros_ws/install/sensor_msgs/lib:/home/ngy/microros_ws/install/nav_msgs/lib:/home/ngy/microros_ws/install/diagnostic_msgs/lib:/home/ngy/microros_ws/install/geometry_msgs/lib:/home/ngy/microros_ws/install/actionlib_msgs/lib:/home/ngy/microros_ws/install/std_msgs/lib:/home/ngy/microros_ws/install/statistics_msgs/lib:/home/ngy/microros_ws/install/rmw_microxrcedds/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/microros_ws/install/rosgraph_msgs/lib:/home/ngy/microros_ws/install/rclc_parameter/lib:/home/ngy/microros_ws/install/rclc/lib:/home/ngy/microros_ws/install/composition_interfaces/lib:/home/ngy/microros_ws/install/rcl_interfaces/lib:/home/ngy/microros_ws/install/microxrcedds_client/lib:/home/ngy/microros_ws/install/microcdr/lib:/home/ngy/microros_ws/install/micro_ros_msgs/lib:/home/ngy/microros_ws/install/lifecycle_msgs/lib:/home/ngy/microros_ws/install/complex_msgs/lib:/home/ngy/microros_ws/install/builtin_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/visualization_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/test_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/trajectory_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/stereo_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/shape_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/nav_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/diagnostic_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/actionlib_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/statistics_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosgraph_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/composition_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ngy/micro_ros/build/micro_ros_demos_rclc -- -j12 -l12
+[2.661s] [35m[1mScanning dependencies of target fibonacci_action_client[0m
+[2.669s] [35m[1mScanning dependencies of target fibonacci_action_server[0m
+[2.682s] [35m[1mScanning dependencies of target configured_publisher[0m
+[2.700s] [35m[1mScanning dependencies of target configured_subscriber[0m
+[2.701s] [35m[1mScanning dependencies of target subscription_count[0m
+[2.714s] [35m[1mScanning dependencies of target graph_visualizer[0m
+[2.729s] [  1%] [34m[1mCreating directories for 'fibonacci_action_server'[0m
+[2.733s] [  2%] [34m[1mCreating directories for 'fibonacci_action_client'[0m
+[2.750s] [  3%] [34m[1mCreating directories for 'configured_publisher'[0m
+[2.758s] [35m[1mScanning dependencies of target addtwoints_client[0m
+[2.762s] [  3%] [34m[1mCreating directories for 'configured_subscriber'[0m
+[2.780s] [35m[1mScanning dependencies of target int32_subscriber[0m
+[2.783s] [  3%] [34m[1mCreating directories for 'subscription_count'[0m
+[2.806s] [35m[1mScanning dependencies of target int32_publisher[0m
+[2.837s] [  4%] [34m[1mCreating directories for 'graph_visualizer'[0m
+[2.847s] [  4%] [34m[1mCreating directories for 'addtwoints_client'[0m
+[2.885s] [  4%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[2.943s] [35m[1mScanning dependencies of target fragmented_publication[0m
+[2.944s] [  5%] [34m[1mCreating directories for 'int32_publisher'[0m
+[2.947s] [35m[1mScanning dependencies of target addtwoints_server[0m
+[2.953s] [35m[1mScanning dependencies of target publisher_count[0m
+[3.038s] [  5%] [34m[1mCreating directories for 'addtwoints_server'[0m
+[3.052s] [  5%] [34m[1mCreating directories for 'publisher_count'[0m
+[3.052s] [  5%] [34m[1mCreating directories for 'fragmented_publication'[0m
+[3.161s] [  5%] [34m[1mNo download step for 'configured_publisher'[0m
+[3.180s] [  5%] [34m[1mNo download step for 'fibonacci_action_server'[0m
+[3.235s] [  6%] [34m[1mNo download step for 'subscription_count'[0m
+[3.249s] [  7%] [34m[1mNo download step for 'configured_subscriber'[0m
+[3.255s] [  7%] [34m[1mNo download step for 'fibonacci_action_client'[0m
+[3.334s] [  8%] [34m[1mNo download step for 'addtwoints_client'[0m
+[3.337s] [  9%] [34m[1mNo patch step for 'fibonacci_action_server'[0m
+[3.353s] [ 10%] [34m[1mNo patch step for 'configured_publisher'[0m
+[3.384s] [ 11%] [34m[1mNo download step for 'int32_subscriber'[0m
+[3.392s] [ 12%] [34m[1mNo download step for 'graph_visualizer'[0m
+[3.432s] [ 12%] [34m[1mNo patch step for 'subscription_count'[0m
+[3.433s] [ 13%] [34m[1mNo patch step for 'configured_subscriber'[0m
+[3.457s] [ 13%] [34m[1mNo patch step for 'fibonacci_action_client'[0m
+[3.500s] [ 14%] [34m[1mNo update step for 'configured_publisher'[0m
+[3.506s] [ 15%] [34m[1mNo patch step for 'addtwoints_client'[0m
+[3.520s] [ 16%] [34m[1mNo update step for 'fibonacci_action_server'[0m
+[3.536s] [ 16%] [34m[1mNo download step for 'int32_publisher'[0m
+[3.555s] [ 17%] [34m[1mNo download step for 'fragmented_publication'[0m
+[3.557s] [ 18%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[3.593s] [ 19%] [34m[1mNo update step for 'subscription_count'[0m
+[3.598s] [ 20%] [34m[1mNo download step for 'publisher_count'[0m
+[3.605s] [ 21%] [34m[1mNo download step for 'addtwoints_server'[0m
+[3.607s] [ 21%] [34m[1mNo update step for 'configured_subscriber'[0m
+[3.612s] [ 22%] [34m[1mNo patch step for 'graph_visualizer'[0m
+[3.682s] [ 23%] [34m[1mNo update step for 'fibonacci_action_client'[0m
+[3.703s] [ 23%] [34m[1mNo update step for 'addtwoints_client'[0m
+[3.711s] [ 23%] [34m[1mNo patch step for 'int32_publisher'[0m
+[3.712s] [ 23%] [34m[1mPerforming configure step for 'configured_publisher'[0m
+[3.733s] [ 24%] [34m[1mNo patch step for 'fragmented_publication'[0m
+[3.748s] [ 24%] [34m[1mNo update step for 'int32_subscriber'[0m
+[3.755s] [ 24%] [34m[1mPerforming configure step for 'fibonacci_action_server'[0m
+[3.788s] [ 24%] [34m[1mPerforming configure step for 'configured_subscriber'[0m
+[3.795s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/configuration_example/configured_publisher/tmp/configured_publisher-cache-.cmake
+[3.801s] [ 24%] [34m[1mNo patch step for 'addtwoints_server'[0m
+[3.808s] [ 26%] [34m[1mNo patch step for 'publisher_count'[0m
+[3.814s] [ 25%] [34m[1mPerforming configure step for 'subscription_count'[0m
+[3.820s] [ 26%] [34m[1mNo update step for 'graph_visualizer'[0m
+[3.836s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/fibonacci_action_server/tmp/fibonacci_action_server-cache-.cmake
+[3.873s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/tmp/configured_subscriber-cache-.cmake
+[3.885s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/graph_introspection/subscription_count/tmp/subscription_count-cache-.cmake
+[3.886s] [ 27%] [34m[1mNo update step for 'fragmented_publication'[0m
+[3.894s] [ 27%] [34m[1mPerforming configure step for 'fibonacci_action_client'[0m
+[3.894s] [ 27%] [34m[1mPerforming configure step for 'addtwoints_client'[0m
+[3.925s] [ 28%] [34m[1mNo update step for 'int32_publisher'[0m
+[3.960s] [ 29%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+[3.975s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/fibonacci_action_client/tmp/fibonacci_action_client-cache-.cmake
+[3.988s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/addtwoints_client/tmp/addtwoints_client-cache-.cmake
+[4.006s] [ 29%] [34m[1mNo update step for 'publisher_count'[0m
+[4.013s] [ 29%] [34m[1mPerforming configure step for 'graph_visualizer'[0m
+[4.013s] [ 30%] [34m[1mNo update step for 'addtwoints_server'[0m
+[4.029s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+[4.063s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/tmp/graph_visualizer-cache-.cmake
+[4.088s] [ 30%] [34m[1mPerforming configure step for 'fragmented_publication'[0m
+[4.137s] -- The C compiler identification is GNU 9.4.0
+[4.173s] [ 31%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[4.209s] -- Check for working C compiler: /usr/bin/cc
+[4.221s] [ 32%] [34m[1mPerforming configure step for 'publisher_count'[0m
+[4.232s] [ 33%] [34m[1mPerforming configure step for 'addtwoints_server'[0m
+[4.233s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/int32_publisher/tmp/int32_publisher-cache-.cmake
+[4.235s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/fragmented_publication/tmp/fragmented_publication-cache-.cmake
+[4.241s] -- The C compiler identification is GNU 9.4.0
+[4.261s] -- The C compiler identification is GNU 9.4.0
+[4.273s] -- The C compiler identification is GNU 9.4.0
+[4.285s] -- Check for working C compiler: /usr/bin/cc
+[4.289s] -- The C compiler identification is GNU 9.4.0
+[4.345s] -- Check for working C compiler: /usr/bin/cc
+[4.345s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/addtwoints_server/tmp/addtwoints_server-cache-.cmake
+[4.345s] -- The C compiler identification is GNU 9.4.0
+[4.362s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/graph_introspection/publisher_count/tmp/publisher_count-cache-.cmake
+[4.379s] -- Check for working C compiler: /usr/bin/cc
+[4.380s] -- Check for working C compiler: /usr/bin/cc
+[4.381s] -- The C compiler identification is GNU 9.4.0
+[4.401s] -- The C compiler identification is GNU 9.4.0
+[4.419s] -- Check for working C compiler: /usr/bin/cc
+[4.492s] -- Check for working C compiler: /usr/bin/cc
+[4.500s] -- Check for working C compiler: /usr/bin/cc
+[4.544s] -- The C compiler identification is GNU 9.4.0
+[4.600s] -- The C compiler identification is GNU 9.4.0
+[4.643s] -- Check for working C compiler: /usr/bin/cc
+[4.649s] -- The C compiler identification is GNU 9.4.0
+[4.663s] -- Check for working C compiler: /usr/bin/cc
+[4.711s] -- The C compiler identification is GNU 9.4.0
+[4.720s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.723s] -- Detecting C compiler ABI info
+[4.731s] -- Check for working C compiler: /usr/bin/cc
+[4.779s] -- Check for working C compiler: /usr/bin/cc
+[4.888s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.891s] -- Detecting C compiler ABI info
+[4.935s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.938s] -- Detecting C compiler ABI info
+[4.939s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.943s] -- Detecting C compiler ABI info
+[4.970s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.972s] -- Detecting C compiler ABI info
+[5.035s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.038s] -- Detecting C compiler ABI info
+[5.080s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.082s] -- Detecting C compiler ABI info
+[5.171s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.174s] -- Detecting C compiler ABI info
+[5.225s] -- Detecting C compiler ABI info - done
+[5.284s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.286s] -- Detecting C compiler ABI info
+[5.312s] -- Detecting C compile features
+[5.316s] -- Detecting C compile features - done
+[5.331s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.334s] -- Detecting C compiler ABI info
+[5.334s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.355s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.357s] -- Detecting C compiler ABI info
+[5.544s] -- Detecting C compiler ABI info - done
+[5.631s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.634s] -- Detecting C compiler ABI info
+[5.643s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.643s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.651s] -- Detecting C compile features
+[5.652s] -- Detecting C compile features - done
+[5.682s] -- Detecting C compiler ABI info - done
+[5.695s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.722s] -- Detecting C compiler ABI info - done
+[5.725s] -- Detecting C compiler ABI info - done
+[5.743s] -- Detecting C compile features
+[5.744s] -- Detecting C compile features - done
+[5.762s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.783s] -- Detecting C compiler ABI info - done
+[5.810s] -- Detecting C compile features
+[5.811s] -- Detecting C compile features - done
+[5.842s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.842s] -- Detecting C compile features
+[5.842s] -- Detecting C compiler ABI info - done
+[5.843s] -- Detecting C compile features - done
+[5.861s] -- Detecting C compile features
+[5.862s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.863s] -- Detecting C compile features - done
+[5.872s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.897s] -- Detecting C compiler ABI info - done
+[5.948s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.948s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.952s] -- Detecting C compiler ABI info - done
+[5.956s] -- Detecting C compile features
+[5.957s] -- Detecting C compile features - done
+[5.968s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.017s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.018s] -- Detecting C compile features
+[6.018s] -- Detecting C compiler ABI info - done
+[6.019s] -- Detecting C compile features - done
+[6.041s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.057s] -- Detecting C compile features
+[6.065s] -- Detecting C compile features - done
+[6.101s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.102s] -- Detecting C compile features
+[6.104s] -- Detecting C compile features - done
+[6.125s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.126s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.126s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.129s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.129s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.148s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.148s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.155s] -- Detecting C compiler ABI info - done
+[6.253s] -- Detecting C compile features
+[6.254s] -- Detecting C compile features - done
+[6.263s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.267s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.281s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.312s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.312s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.320s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.324s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.337s] -- Detecting C compiler ABI info - done
+[6.427s] -- Detecting C compile features
+[6.428s] -- Detecting C compile features - done
+[6.445s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.529s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.530s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.710s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.710s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.180s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[7.420s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[7.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.647s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.791s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[7.800s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.845s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[7.884s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.894s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[7.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.031s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.046s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.051s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.078s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.113s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.170s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.231s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.244s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.269s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.322s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.435s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.474s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.519s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.534s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[8.538s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.590s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.624s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.719s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.773s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.944s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.995s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.035s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.143s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.186s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.212s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.356s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.372s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.389s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.413s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.425s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.544s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.546s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.546s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.561s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.569s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.580s] -- Looking for pthread.h
+[9.618s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.693s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.774s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.844s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.954s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.015s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.033s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.082s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.102s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.139s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.150s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.161s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.266s] -- Looking for pthread.h - found
+[10.266s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.374s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.379s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.394s] -- Looking for pthread.h
+[10.544s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.561s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.573s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.590s] -- Looking for pthread.h
+[10.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.593s] -- Looking for pthread.h
+[10.599s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.601s] -- Looking for pthread.h
+[10.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.657s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.685s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.705s] -- Looking for pthread.h
+[10.706s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.745s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.748s] -- Looking for pthread.h
+[10.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.796s] -- Looking for pthread_create in pthreads
+[10.867s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.878s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.881s] -- Looking for pthread.h
+[10.918s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.995s] -- Looking for pthread.h - found
+[10.995s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.079s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.097s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.101s] -- Looking for pthread.h
+[11.107s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.127s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.139s] -- Looking for pthread.h
+[11.179s] -- Looking for pthread.h - found
+[11.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.267s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.309s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[11.309s] -- Looking for pthread_create in pthreads - not found
+[11.310s] -- Looking for pthread.h - found
+[11.310s] -- Looking for pthread.h - found
+[11.310s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.310s] -- Looking for pthread_create in pthread
+[11.314s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.314s] -- Looking for pthread.h
+[11.344s] -- Looking for pthread.h - found
+[11.345s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.356s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.358s] -- Looking for pthread.h
+[11.388s] -- Looking for pthread.h - found
+[11.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.435s] -- Looking for pthread.h - found
+[11.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.550s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.550s] -- Looking for pthread_create in pthreads
+[11.757s] -- Looking for pthread.h - found
+[11.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.875s] -- Looking for pthread.h - found
+[11.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.890s] -- Looking for pthread.h - found
+[11.891s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.902s] -- Looking for pthread.h - found
+[11.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.908s] -- Looking for pthread_create in pthreads
+[11.911s] -- Looking for pthread_create in pthread - found
+[11.914s] -- Found Threads: TRUE  
+[11.980s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.982s] -- Looking for pthread_create in pthreads
+[12.000s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.000s] -- Looking for pthread_create in pthreads
+[12.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.064s] -- Looking for pthread_create in pthreads
+[12.066s] -- Found rcl_action: 1.1.14 (/opt/ros/foxy/share/rcl_action/cmake)
+[12.084s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.085s] -- Looking for pthread_create in pthreads
+[12.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.095s] -- Looking for pthread_create in pthreads
+[12.213s] -- Looking for pthread_create in pthreads - not found
+[12.214s] -- Looking for pthread_create in pthread
+[12.299s] -- Looking for pthread_create in pthreads - not found
+[12.300s] -- Looking for pthread_create in pthread
+[12.300s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.301s] -- Looking for pthread_create in pthreads
+[12.419s] -- Looking for pthread_create in pthreads - not found
+[12.420s] -- Looking for pthread_create in pthread
+[12.427s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.427s] -- Looking for pthread_create in pthreads
+[12.476s] -- Found example_interfaces: 0.9.1 (/home/ngy/micro_ros/install/example_interfaces/share/example_interfaces/cmake)
+[12.491s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.492s] -- Looking for pthread_create in pthreads
+[12.537s] -- Looking for pthread_create in pthreads - not found
+[12.538s] -- Looking for pthread_create in pthread
+[12.544s] -- Looking for pthread_create in pthreads - not found
+[12.548s] -- Looking for pthread_create in pthread
+[12.572s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.573s] -- Looking for pthread_create in pthreads
+[12.642s] -- Looking for pthread_create in pthreads - not found
+[12.643s] -- Looking for pthread_create in pthread
+[12.674s] -- Looking for pthread_create in pthread - found
+[12.677s] -- Found Threads: TRUE  
+[12.683s] -- Looking for pthread_create in pthreads - not found
+[12.683s] -- Looking for pthread_create in pthread
+[12.843s] -- Looking for pthread_create in pthreads - not found
+[12.844s] -- Looking for pthread_create in pthread
+[12.859s] -- Looking for pthread_create in pthread - found
+[12.862s] -- Found Threads: TRUE  
+[12.870s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[12.922s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[12.948s] -- Looking for pthread_create in pthreads - not found
+[12.949s] -- Looking for pthread_create in pthread
+[12.962s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[13.006s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[13.024s] -- Looking for pthread_create in pthreads - not found
+[13.025s] -- Looking for pthread_create in pthread
+[13.090s] -- Configuring done
+[13.091s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[13.093s] -- Looking for pthread_create in pthread - found
+[13.096s] -- Found Threads: TRUE  
+[13.102s] -- Looking for pthread_create in pthread - found
+[13.105s] -- Found Threads: TRUE  
+[13.127s] -- Looking for pthread_create in pthreads - not found
+[13.128s] -- Looking for pthread_create in pthread
+[13.131s] -- Generating done
+[13.142s] -- Looking for pthread_create in pthread - found
+[13.145s] -- Found Threads: TRUE  
+[13.155s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/fibonacci_action_server/src/fibonacci_action_server-build
+[13.176s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[13.248s] -- Configuring done
+[13.275s] -- Found rcl_action: 1.1.14 (/opt/ros/foxy/share/rcl_action/cmake)
+[13.309s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[13.326s] -- Generating done
+[13.337s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[13.338s] -- Looking for pthread_create in pthread - found
+[13.338s] -- Configuring done
+[13.338s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/int32_subscriber/src/int32_subscriber-build
+[13.338s] -- Found Threads: TRUE  
+[13.343s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[13.347s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[13.356s] [ 34%] [34m[1mPerforming build step for 'fibonacci_action_server'[0m
+[13.367s] -- Looking for pthread_create in pthread - found
+[13.370s] -- Found Threads: TRUE  
+[13.374s] -- Generating done
+[13.383s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/configuration_example/configured_publisher/src/configured_publisher-build
+[13.404s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[13.462s] -- Configuring done
+[13.486s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[13.518s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[13.518s] -- Generating done
+[13.518s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[13.521s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/fragmented_publication/src/fragmented_publication-build
+[13.540s] [ 34%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[13.580s] [ 35%] [34m[1mPerforming build step for 'configured_publisher'[0m
+[13.589s] -- Looking for pthread_create in pthread - found
+[13.595s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[13.596s] -- Found Threads: TRUE  
+[13.613s] -- Looking for pthread_create in pthread - found
+[13.615s] -- Found Threads: TRUE  
+[13.644s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[13.665s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[13.684s] -- Configuring done
+[13.722s] [35m[1mScanning dependencies of target fibonacci_action_server[0m
+[13.722s] -- Generating done
+[13.723s] -- Looking for pthread_create in pthread - found
+[13.725s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/configuration_example/configured_subscriber/src/configured_subscriber-build
+[13.726s] -- Found Threads: TRUE  
+[13.733s] [ 36%] [34m[1mPerforming build step for 'fragmented_publication'[0m
+[13.752s] -- Configuring done
+[13.753s] -- Found example_interfaces: 0.9.1 (/home/ngy/micro_ros/install/example_interfaces/share/example_interfaces/cmake)
+[13.771s] -- Generating done
+[13.777s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[13.785s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/graph_introspection/subscription_count/src/subscription_count-build
+[13.806s] -- Configuring done
+[13.830s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[13.838s] -- Found example_interfaces: 0.9.1 (/home/ngy/micro_ros/install/example_interfaces/share/example_interfaces/cmake)
+[13.838s] -- Generating done
+[13.844s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/graph_introspection/graph_visualizer/src/graph_visualizer-build
+[13.861s] [35m[1mScanning dependencies of target int32_subscriber[0m
+[13.877s] -- Looking for pthread_create in pthread - found
+[13.880s] -- Found Threads: TRUE  
+[13.900s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_server.dir/main.c.o[0m
+[13.900s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[13.908s] [ 37%] [34m[1mPerforming build step for 'configured_subscriber'[0m
+[13.909s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[13.932s] [35m[1mScanning dependencies of target configured_publisher[0m
+[13.938s] [ 37%] [34m[1mPerforming build step for 'subscription_count'[0m
+[13.966s] -- Found example_interfaces: 0.9.1 (/home/ngy/micro_ros/install/example_interfaces/share/example_interfaces/cmake)
+[14.008s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[14.057s] [35m[1mScanning dependencies of target fragmented_publication[0m
+[14.058s] [ 50%] [32mBuilding C object CMakeFiles/int32_subscriber.dir/main.c.o[0m
+[14.077s] [ 38%] [34m[1mPerforming build step for 'graph_visualizer'[0m
+[14.091s] -- Configuring done
+[14.093s] [ 50%] [32mBuilding C object CMakeFiles/configured_publisher.dir/main.c.o[0m
+[14.096s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[14.107s] -- Configuring done
+[14.128s] -- Generating done
+[14.131s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[14.132s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/fibonacci_action_client/src/fibonacci_action_client-build
+[14.152s] -- Generating done
+[14.153s] [01m[K/home/ngy/micro_ros/src/uros/micro-ROS-demos/rclc/fibonacci_action_server/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[14.153s] [01m[K/home/ngy/micro_ros/src/uros/micro-ROS-demos/rclc/fibonacci_action_server/main.c:87:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[14.153s]    87 |     [01;35m[Krcl_wait(&wait_set, RCL_MS_TO_NS(200))[m[K;
+[14.153s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.172s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/int32_publisher/src/int32_publisher-build
+[14.219s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_publication.dir/main.c.o[0m
+[14.243s] [35m[1mScanning dependencies of target configured_subscriber[0m
+[14.257s] -- Configuring done
+[14.266s] [ 38%] [34m[1mPerforming build step for 'fibonacci_action_client'[0m
+[14.297s] -- Generating done
+[14.306s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/graph_introspection/publisher_count/src/publisher_count-build
+[14.316s] [35m[1mScanning dependencies of target subscription_count[0m
+[14.389s] [100%] [32m[1mLinking C executable int32_subscriber[0m
+[14.418s] [ 38%] [34m[1mPerforming build step for 'int32_publisher'[0m
+[14.427s] [100%] [32m[1mLinking C executable fibonacci_action_server[0m
+[14.428s] [ 50%] [32mBuilding C object CMakeFiles/configured_subscriber.dir/main.c.o[0m
+[14.436s] [35m[1mScanning dependencies of target graph_visualizer[0m
+[14.492s] [ 50%] [32mBuilding C object CMakeFiles/subscription_count.dir/main.c.o[0m
+[14.533s] [ 38%] [34m[1mPerforming build step for 'publisher_count'[0m
+[14.577s] [ 50%] [32mBuilding C object CMakeFiles/graph_visualizer.dir/main.c.o[0m
+[14.578s] [100%] [32m[1mLinking C executable configured_publisher[0m
+[14.637s] [35m[1mScanning dependencies of target fibonacci_action_client[0m
+[14.645s] [100%] [32m[1mLinking C executable fragmented_publication[0m
+[14.714s] -- Configuring done
+[14.721s] -- Configuring done
+[14.735s] -- Generating done
+[14.739s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/addtwoints_server/src/addtwoints_server-build
+[14.774s] -- Generating done
+[14.789s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/addtwoints_client/src/addtwoints_client-build
+[14.817s] [100%] [32m[1mLinking C executable configured_subscriber[0m
+[14.823s] [35m[1mScanning dependencies of target int32_publisher[0m
+[14.825s] [ 50%] [32mBuilding C object CMakeFiles/fibonacci_action_client.dir/main.c.o[0m
+[14.883s] [35m[1mScanning dependencies of target publisher_count[0m
+[14.898s] [100%] Built target int32_subscriber
+[14.964s] [ 38%] [34m[1mPerforming build step for 'addtwoints_server'[0m
+[14.976s] [100%] [32m[1mLinking C executable subscription_count[0m
+[14.992s] [ 39%] [34m[1mPerforming build step for 'addtwoints_client'[0m
+[14.998s] [ 40%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[15.016s] [100%] Built target fibonacci_action_server
+[15.028s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher.dir/main.c.o[0m
+[15.065s] [ 50%] [32mBuilding C object CMakeFiles/publisher_count.dir/main.c.o[0m
+[15.074s] [100%] Built target configured_publisher
+[15.086s] [100%] [32m[1mLinking C executable graph_visualizer[0m
+[15.132s] [ 40%] [34m[1mPerforming install step for 'fibonacci_action_server'[0m
+[15.197s] [ 40%] [34m[1mPerforming install step for 'configured_publisher'[0m
+[15.250s] [35m[1mScanning dependencies of target addtwoints_client[0m
+[15.304s] [100%] Built target configured_subscriber
+[15.318s] [100%] [32m[1mLinking C executable fibonacci_action_client[0m
+[15.333s] [35m[1mScanning dependencies of target addtwoints_server[0m
+[15.362s] [100%] Built target fragmented_publication
+[15.429s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_client.dir/main.c.o[0m
+[15.435s] [100%] [32m[1mLinking C executable int32_publisher[0m
+[15.463s] [100%] Built target int32_subscriber
+[15.472s] [ 50%] [32mBuilding C object CMakeFiles/addtwoints_server.dir/main.c.o[0m
+[15.526s] [ 41%] [34m[1mPerforming install step for 'configured_subscriber'[0m
+[15.527s] [100%] [32m[1mLinking C executable publisher_count[0m
+[15.534s] [ 42%] [34m[1mPerforming install step for 'fragmented_publication'[0m
+[15.593s] [100%] Built target fibonacci_action_server
+[15.616s] [100%] Built target subscription_count
+[15.629s] [100%] Built target graph_visualizer
+[15.659s] [36mInstall the project...[0m
+[15.677s] [100%] Built target configured_publisher
+[15.740s] -- Install configuration: ""
+[15.741s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber
+[15.743s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_subscriber/int32_subscriber" to ""
+[15.747s] [100%] [32m[1mLinking C executable addtwoints_server[0m
+[15.774s] [36mInstall the project...[0m
+[15.785s] [ 42%] [34m[1mPerforming install step for 'graph_visualizer'[0m
+[15.818s] [36mInstall the project...[0m
+[15.850s] -- Install configuration: ""
+[15.850s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server
+[15.851s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/fibonacci_action_server/fibonacci_action_server" to ""
+[15.857s] [ 43%] [34m[1mPerforming install step for 'subscription_count'[0m
+[15.893s] -- Install configuration: ""
+[15.893s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher
+[15.896s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/configured_publisher/configured_publisher" to ""
+[15.905s] [ 43%] [34m[1mCompleted 'int32_subscriber'[0m
+[15.909s] [100%] [32m[1mLinking C executable addtwoints_client[0m
+[15.952s] [100%] Built target publisher_count
+[15.962s] [100%] Built target configured_subscriber
+[15.966s] [100%] Built target fibonacci_action_client
+[15.998s] [100%] Built target fragmented_publication
+[16.045s] [ 44%] [34m[1mCompleted 'fibonacci_action_server'[0m
+[16.069s] [ 45%] [34m[1mCompleted 'configured_publisher'[0m
+[16.076s] [36mInstall the project...[0m
+[16.082s] [100%] Built target int32_publisher
+[16.118s] [ 46%] [34m[1mPerforming install step for 'publisher_count'[0m
+[16.122s] [ 47%] [34m[1mPerforming install step for 'fibonacci_action_client'[0m
+[16.179s] -- Install configuration: ""
+[16.180s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber
+[16.181s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/configured_subscriber/configured_subscriber" to ""
+[16.189s] [36mInstall the project...[0m
+[16.206s] [ 47%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[16.227s] [ 47%] Built target int32_subscriber
+[16.249s] [100%] Built target graph_visualizer
+[16.267s] -- Install configuration: ""
+[16.267s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication
+[16.268s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/fragmented_publication/fragmented_publication" to ""
+[16.319s] [100%] Built target addtwoints_server
+[16.328s] [100%] Built target subscription_count
+[16.344s] [ 47%] [34m[1mCompleted 'configured_subscriber'[0m
+[16.354s] [ 47%] Built target fibonacci_action_server
+[16.366s] [36mInstall the project...[0m
+[16.370s] [ 47%] Built target configured_publisher
+[16.419s] -- Install configuration: ""
+[16.420s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer
+[16.421s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/graph_visualizer/graph_visualizer" to ""
+[16.464s] [ 48%] [34m[1mPerforming install step for 'addtwoints_server'[0m
+[16.474s] [ 48%] [34m[1mCompleted 'fragmented_publication'[0m
+[16.521s] [36mInstall the project...[0m
+[16.524s] [100%] Built target addtwoints_client
+[16.546s] [ 48%] Built target configured_subscriber
+[16.561s] -- Install configuration: ""
+[16.562s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count
+[16.570s] [100%] Built target publisher_count
+[16.571s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/subscription_count/subscription_count" to ""
+[16.593s] [100%] Built target fibonacci_action_client
+[16.600s] [ 49%] [34m[1mCompleted 'graph_visualizer'[0m
+[16.617s] [100%] Built target int32_publisher
+[16.647s] [ 50%] [34m[1mPerforming install step for 'addtwoints_client'[0m
+[16.717s] [ 50%] Built target fragmented_publication
+[16.725s] [36mInstall the project...[0m
+[16.746s] [36mInstall the project...[0m
+[16.766s] [ 50%] [34m[1mCompleted 'subscription_count'[0m
+[16.773s] [36mInstall the project...[0m
+[16.783s] -- Install configuration: ""
+[16.784s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count
+[16.784s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/publisher_count/publisher_count" to ""
+[16.817s] -- Install configuration: ""
+[16.817s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client
+[16.818s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/fibonacci_action_client/fibonacci_action_client" to ""
+[16.829s] -- Install configuration: ""
+[16.830s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher
+[16.831s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_publisher/int32_publisher" to ""
+[16.859s] [ 50%] Built target graph_visualizer
+[16.871s] [100%] Built target addtwoints_server
+[16.923s] [ 50%] [34m[1mCompleted 'publisher_count'[0m
+[16.947s] [ 51%] [34m[1mCompleted 'int32_publisher'[0m
+[16.988s] [ 51%] [34m[1mCompleted 'fibonacci_action_client'[0m
+[17.012s] [36mInstall the project...[0m
+[17.014s] [ 51%] Built target subscription_count
+[17.087s] -- Install configuration: ""
+[17.087s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server
+[17.088s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/addtwoints_server/addtwoints_server" to ""
+[17.095s] [100%] Built target addtwoints_client
+[17.153s] [ 51%] [34m[1mCompleted 'addtwoints_server'[0m
+[17.155s] [ 51%] Built target int32_publisher
+[17.188s] [ 51%] Built target publisher_count
+[17.232s] [ 51%] Built target fibonacci_action_client
+[17.237s] [36mInstall the project...[0m
+[17.261s] -- Install configuration: ""
+[17.278s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client
+[17.279s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/addtwoints_client/addtwoints_client" to ""
+[17.343s] [ 51%] [34m[1mCompleted 'addtwoints_client'[0m
+[17.359s] [ 51%] Built target addtwoints_server
+[17.481s] [ 51%] Built target addtwoints_client
+[17.560s] [35m[1mScanning dependencies of target int32_publisher_subscriber[0m
+[17.610s] [ 52%] [34m[1mCreating directories for 'int32_publisher_subscriber'[0m
+[18.041s] [ 53%] [34m[1mNo download step for 'int32_publisher_subscriber'[0m
+[18.136s] [ 54%] [34m[1mNo patch step for 'int32_publisher_subscriber'[0m
+[18.214s] [ 54%] [34m[1mNo update step for 'int32_publisher_subscriber'[0m
+[18.290s] [ 54%] [34m[1mPerforming configure step for 'int32_publisher_subscriber'[0m
+[18.318s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/int32_publisher_subscriber/tmp/int32_publisher_subscriber-cache-.cmake
+[18.453s] -- The C compiler identification is GNU 9.4.0
+[18.499s] -- Check for working C compiler: /usr/bin/cc
+[18.689s] -- Check for working C compiler: /usr/bin/cc -- works
+[18.691s] -- Detecting C compiler ABI info
+[18.878s] -- Detecting C compiler ABI info - done
+[18.905s] -- Detecting C compile features
+[18.906s] -- Detecting C compile features - done
+[18.915s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[18.996s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[18.996s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.605s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[19.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.752s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[20.068s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[20.156s] -- Found FastRTPS: /opt/ros/foxy/include  
+[20.371s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.566s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[20.576s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.578s] -- Looking for pthread.h
+[20.770s] -- Looking for pthread.h - found
+[20.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[20.961s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[20.961s] -- Looking for pthread_create in pthreads
+[21.123s] -- Looking for pthread_create in pthreads - not found
+[21.123s] -- Looking for pthread_create in pthread
+[21.271s] -- Looking for pthread_create in pthread - found
+[21.274s] -- Found Threads: TRUE  
+[21.333s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[21.348s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[21.395s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[21.438s] -- Configuring done
+[21.454s] -- Generating done
+[21.457s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-build
+[21.512s] [ 55%] [34m[1mPerforming build step for 'int32_publisher_subscriber'[0m
+[21.597s] [35m[1mScanning dependencies of target int32_publisher_subscriber[0m
+[21.639s] [ 50%] [32mBuilding C object CMakeFiles/int32_publisher_subscriber.dir/main.c.o[0m
+[21.758s] [100%] [32m[1mLinking C executable int32_publisher_subscriber[0m
+[21.933s] [100%] Built target int32_publisher_subscriber
+[21.969s] [ 55%] [34m[1mPerforming install step for 'int32_publisher_subscriber'[0m
+[22.100s] [100%] Built target int32_publisher_subscriber
+[22.153s] [36mInstall the project...[0m
+[22.176s] -- Install configuration: ""
+[22.176s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber
+[22.177s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_publisher_subscriber/int32_publisher_subscriber" to ""
+[22.230s] [ 56%] [34m[1mCompleted 'int32_publisher_subscriber'[0m
+[22.324s] [ 56%] Built target int32_publisher_subscriber
+[22.355s] [35m[1mScanning dependencies of target autodiscover_agent[0m
+[22.379s] [ 57%] [34m[1mCreating directories for 'autodiscover_agent'[0m
+[22.571s] [ 57%] [34m[1mNo download step for 'autodiscover_agent'[0m
+[22.640s] [ 57%] [34m[1mNo patch step for 'autodiscover_agent'[0m
+[22.710s] [ 58%] [34m[1mNo update step for 'autodiscover_agent'[0m
+[22.773s] [ 59%] [34m[1mPerforming configure step for 'autodiscover_agent'[0m
+[22.791s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/autodiscover_agent/tmp/autodiscover_agent-cache-.cmake
+[22.875s] -- The C compiler identification is GNU 9.4.0
+[22.904s] -- Check for working C compiler: /usr/bin/cc
+[23.092s] -- Check for working C compiler: /usr/bin/cc -- works
+[23.095s] -- Detecting C compiler ABI info
+[23.221s] -- Detecting C compiler ABI info - done
+[23.252s] -- Detecting C compile features
+[23.252s] -- Detecting C compile features - done
+[23.261s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[23.317s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[23.318s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[23.728s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[23.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.868s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[24.147s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[24.229s] -- Found FastRTPS: /opt/ros/foxy/include  
+[24.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.571s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[24.579s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[24.581s] -- Looking for pthread.h
+[24.711s] -- Looking for pthread.h - found
+[24.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[24.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[24.848s] -- Looking for pthread_create in pthreads
+[24.975s] -- Looking for pthread_create in pthreads - not found
+[24.975s] -- Looking for pthread_create in pthread
+[25.127s] -- Looking for pthread_create in pthread - found
+[25.128s] -- Found Threads: TRUE  
+[25.168s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[25.177s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[25.203s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[25.240s] -- Configuring done
+[25.256s] -- Generating done
+[25.258s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/autodiscover_agent/src/autodiscover_agent-build
+[25.324s] [ 60%] [34m[1mPerforming build step for 'autodiscover_agent'[0m
+[25.417s] [35m[1mScanning dependencies of target autodiscover_agent[0m
+[25.468s] [ 50%] [32mBuilding C object CMakeFiles/autodiscover_agent.dir/main.c.o[0m
+[25.611s] [100%] [32m[1mLinking C executable autodiscover_agent[0m
+[25.775s] [100%] Built target autodiscover_agent
+[25.824s] [ 60%] [34m[1mPerforming install step for 'autodiscover_agent'[0m
+[25.933s] [100%] Built target autodiscover_agent
+[25.976s] [36mInstall the project...[0m
+[25.993s] -- Install configuration: ""
+[25.993s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent
+[25.994s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/autodiscover_agent/autodiscover_agent" to ""
+[26.034s] [ 61%] [34m[1mCompleted 'autodiscover_agent'[0m
+[26.125s] [ 61%] Built target autodiscover_agent
+[26.148s] [35m[1mScanning dependencies of target string_subscriber[0m
+[26.170s] [ 61%] [34m[1mCreating directories for 'string_subscriber'[0m
+[26.351s] [ 62%] [34m[1mNo download step for 'string_subscriber'[0m
+[26.420s] [ 63%] [34m[1mNo patch step for 'string_subscriber'[0m
+[26.490s] [ 63%] [34m[1mNo update step for 'string_subscriber'[0m
+[26.557s] [ 63%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+[26.583s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/string_subscriber/tmp/string_subscriber-cache-.cmake
+[26.706s] -- The C compiler identification is GNU 9.4.0
+[26.737s] -- Check for working C compiler: /usr/bin/cc
+[26.904s] -- Check for working C compiler: /usr/bin/cc -- works
+[26.906s] -- Detecting C compiler ABI info
+[27.064s] -- Detecting C compiler ABI info - done
+[27.095s] -- Detecting C compile features
+[27.096s] -- Detecting C compile features - done
+[27.104s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[27.178s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[27.179s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[27.605s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[27.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[27.719s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[28.016s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[28.093s] -- Found FastRTPS: /opt/ros/foxy/include  
+[28.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.482s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[28.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[28.494s] -- Looking for pthread.h
+[28.658s] -- Looking for pthread.h - found
+[28.659s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[28.804s] -- Looking for pthread_create in pthreads
+[28.923s] -- Looking for pthread_create in pthreads - not found
+[28.925s] -- Looking for pthread_create in pthread
+[29.057s] -- Looking for pthread_create in pthread - found
+[29.059s] -- Found Threads: TRUE  
+[29.110s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[29.122s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[29.150s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[29.175s] -- Configuring done
+[29.185s] -- Generating done
+[29.187s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/string_subscriber/src/string_subscriber-build
+[29.246s] [ 64%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[29.322s] [35m[1mScanning dependencies of target string_subscriber[0m
+[29.369s] [ 50%] [32mBuilding C object CMakeFiles/string_subscriber.dir/main.c.o[0m
+[29.500s] [100%] [32m[1mLinking C executable string_subscriber[0m
+[29.634s] [100%] Built target string_subscriber
+[29.678s] [ 65%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[29.796s] [100%] Built target string_subscriber
+[29.839s] [36mInstall the project...[0m
+[29.856s] -- Install configuration: ""
+[29.857s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber
+[29.858s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/string_subscriber/string_subscriber" to ""
+[29.896s] [ 66%] [34m[1mCompleted 'string_subscriber'[0m
+[29.965s] [ 66%] Built target string_subscriber
+[29.992s] [35m[1mScanning dependencies of target string_publisher[0m
+[30.016s] [ 67%] [34m[1mCreating directories for 'string_publisher'[0m
+[30.199s] [ 67%] [34m[1mNo download step for 'string_publisher'[0m
+[30.274s] [ 67%] [34m[1mNo patch step for 'string_publisher'[0m
+[30.337s] [ 68%] [34m[1mNo update step for 'string_publisher'[0m
+[30.415s] [ 69%] [34m[1mPerforming configure step for 'string_publisher'[0m
+[30.449s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/string_publisher/tmp/string_publisher-cache-.cmake
+[30.581s] -- The C compiler identification is GNU 9.4.0
+[30.614s] -- Check for working C compiler: /usr/bin/cc
+[30.779s] -- Check for working C compiler: /usr/bin/cc -- works
+[30.780s] -- Detecting C compiler ABI info
+[30.959s] -- Detecting C compiler ABI info - done
+[31.000s] -- Detecting C compile features
+[31.002s] -- Detecting C compile features - done
+[31.011s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[31.090s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[31.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[31.496s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[31.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[31.631s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[31.933s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[32.013s] -- Found FastRTPS: /opt/ros/foxy/include  
+[32.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[32.395s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[32.405s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[32.407s] -- Looking for pthread.h
+[32.542s] -- Looking for pthread.h - found
+[32.542s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[32.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[32.674s] -- Looking for pthread_create in pthreads
+[32.793s] -- Looking for pthread_create in pthreads - not found
+[32.793s] -- Looking for pthread_create in pthread
+[32.923s] -- Looking for pthread_create in pthread - found
+[32.925s] -- Found Threads: TRUE  
+[32.982s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[32.996s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[33.040s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[33.081s] -- Configuring done
+[33.096s] -- Generating done
+[33.098s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/string_publisher/src/string_publisher-build
+[33.153s] [ 69%] [34m[1mPerforming build step for 'string_publisher'[0m
+[33.219s] [35m[1mScanning dependencies of target string_publisher[0m
+[33.255s] [ 50%] [32mBuilding C object CMakeFiles/string_publisher.dir/main.c.o[0m
+[33.341s] [100%] [32m[1mLinking C executable string_publisher[0m
+[33.462s] [100%] Built target string_publisher
+[33.494s] [ 69%] [34m[1mPerforming install step for 'string_publisher'[0m
+[33.584s] [100%] Built target string_publisher
+[33.618s] [36mInstall the project...[0m
+[33.634s] -- Install configuration: ""
+[33.634s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher
+[33.635s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/string_publisher/string_publisher" to ""
+[33.671s] [ 70%] [34m[1mCompleted 'string_publisher'[0m
+[33.736s] [ 70%] Built target string_publisher
+[33.756s] [35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[33.777s] [ 71%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[33.914s] [ 71%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[33.962s] [ 71%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[34.014s] [ 72%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[34.060s] [ 73%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+[34.077s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+[34.159s] -- The C compiler identification is GNU 9.4.0
+[34.179s] -- Check for working C compiler: /usr/bin/cc
+[34.298s] -- Check for working C compiler: /usr/bin/cc -- works
+[34.299s] -- Detecting C compiler ABI info
+[34.421s] -- Detecting C compiler ABI info - done
+[34.439s] -- Detecting C compile features
+[34.439s] -- Detecting C compile features - done
+[34.445s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[34.493s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[34.493s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[34.836s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[34.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[34.921s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[35.151s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[35.222s] -- Found FastRTPS: /opt/ros/foxy/include  
+[35.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[35.465s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[35.471s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[35.472s] -- Looking for pthread.h
+[35.597s] -- Looking for pthread.h - found
+[35.598s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[35.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[35.721s] -- Looking for pthread_create in pthreads
+[35.821s] -- Looking for pthread_create in pthreads - not found
+[35.821s] -- Looking for pthread_create in pthread
+[35.941s] -- Looking for pthread_create in pthread - found
+[35.943s] -- Found Threads: TRUE  
+[35.996s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[36.005s] -- Found complex_msgs: 1.0.0 (/home/ngy/micro_ros/install/complex_msgs/share/complex_msgs/cmake)
+[36.027s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[36.048s] -- Configuring done
+[36.057s] -- Generating done
+[36.059s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/complex_msg_subscriber/src/complex_msg_subscriber-build
+[36.097s] [ 73%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[36.154s] [35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[36.184s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_subscriber.dir/main.c.o[0m
+[36.263s] [100%] [32m[1mLinking C executable complex_msg_subscriber[0m
+[36.369s] [100%] Built target complex_msg_subscriber
+[36.401s] [ 74%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[36.485s] [100%] Built target complex_msg_subscriber
+[36.518s] [36mInstall the project...[0m
+[36.533s] -- Install configuration: ""
+[36.533s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber
+[36.534s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[36.567s] [ 74%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[36.626s] [ 74%] Built target complex_msg_subscriber
+[36.645s] [35m[1mScanning dependencies of target ping_pong[0m
+[36.665s] [ 75%] [34m[1mCreating directories for 'ping_pong'[0m
+[36.795s] [ 75%] [34m[1mNo download step for 'ping_pong'[0m
+[36.839s] [ 75%] [34m[1mNo patch step for 'ping_pong'[0m
+[36.883s] [ 76%] [34m[1mNo update step for 'ping_pong'[0m
+[36.926s] [ 77%] [34m[1mPerforming configure step for 'ping_pong'[0m
+[36.942s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/ping_pong/tmp/ping_pong-cache-.cmake
+[37.026s] -- The C compiler identification is GNU 9.4.0
+[37.043s] -- Check for working C compiler: /usr/bin/cc
+[37.153s] -- Check for working C compiler: /usr/bin/cc -- works
+[37.154s] -- Detecting C compiler ABI info
+[37.266s] -- Detecting C compiler ABI info - done
+[37.280s] -- Detecting C compile features
+[37.281s] -- Detecting C compile features - done
+[37.286s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[37.329s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[37.330s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[37.637s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[37.704s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[37.719s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[37.915s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[37.975s] -- Found FastRTPS: /opt/ros/foxy/include  
+[38.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[38.192s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[38.197s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[38.198s] -- Looking for pthread.h
+[38.316s] -- Looking for pthread.h - found
+[38.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[38.433s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[38.434s] -- Looking for pthread_create in pthreads
+[38.539s] -- Looking for pthread_create in pthreads - not found
+[38.540s] -- Looking for pthread_create in pthread
+[38.659s] -- Looking for pthread_create in pthread - found
+[38.661s] -- Found Threads: TRUE  
+[38.711s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[38.724s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[38.761s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[38.784s] -- Configuring done
+[38.792s] -- Generating done
+[38.794s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/ping_pong/src/ping_pong-build
+[38.831s] [ 77%] [34m[1mPerforming build step for 'ping_pong'[0m
+[38.888s] [35m[1mScanning dependencies of target ping_pong[0m
+[38.918s] [ 50%] [32mBuilding C object CMakeFiles/ping_pong.dir/main.c.o[0m
+[38.965s] [01m[K/home/ngy/micro_ros/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kping_timer_callback[m[K’:
+[38.965s] [01m[K/home/ngy/micro_ros/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:48:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_publish[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[38.966s]    48 |   [01;35m[Krcl_publish(&ping_publisher, (const void*)&outcoming_ping, NULL)[m[K;
+[38.966s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[38.966s] [01m[K/home/ngy/micro_ros/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kping_subscription_callback[m[K’:
+[38.966s] [01m[K/home/ngy/micro_ros/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:60:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_publish[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[38.966s]    60 |   [01;35m[Krcl_publish(&pong_publisher, (const void*)msg, NULL)[m[K;
+[38.966s]       |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[39.002s] [100%] [32m[1mLinking C executable ping_pong[0m
+[39.113s] [100%] Built target ping_pong
+[39.144s] [ 77%] [34m[1mPerforming install step for 'ping_pong'[0m
+[39.230s] [100%] Built target ping_pong
+[39.261s] [36mInstall the project...[0m
+[39.276s] -- Install configuration: ""
+[39.276s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong
+[39.276s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/ping_pong/ping_pong" to ""
+[39.310s] [ 78%] [34m[1mCompleted 'ping_pong'[0m
+[39.366s] [ 78%] Built target ping_pong
+[39.386s] [35m[1mScanning dependencies of target complex_msg_publisher[0m
+[39.406s] [ 78%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[39.533s] [ 79%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[39.576s] [ 80%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[39.621s] [ 80%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[39.664s] [ 80%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+[39.681s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+[39.757s] -- The C compiler identification is GNU 9.4.0
+[39.775s] -- Check for working C compiler: /usr/bin/cc
+[39.885s] -- Check for working C compiler: /usr/bin/cc -- works
+[39.886s] -- Detecting C compiler ABI info
+[40.002s] -- Detecting C compiler ABI info - done
+[40.029s] -- Detecting C compile features
+[40.029s] -- Detecting C compile features - done
+[40.037s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[40.080s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[40.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[40.390s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[40.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[40.469s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[40.670s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[40.720s] -- Found FastRTPS: /opt/ros/foxy/include  
+[40.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[40.936s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[40.942s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[40.943s] -- Looking for pthread.h
+[41.060s] -- Looking for pthread.h - found
+[41.060s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[41.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[41.175s] -- Looking for pthread_create in pthreads
+[41.275s] -- Looking for pthread_create in pthreads - not found
+[41.275s] -- Looking for pthread_create in pthread
+[41.391s] -- Looking for pthread_create in pthread - found
+[41.392s] -- Found Threads: TRUE  
+[41.426s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[41.434s] -- Found complex_msgs: 1.0.0 (/home/ngy/micro_ros/install/complex_msgs/share/complex_msgs/cmake)
+[41.456s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[41.478s] -- Configuring done
+[41.487s] -- Generating done
+[41.488s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/complex_msg_publisher/src/complex_msg_publisher-build
+[41.528s] [ 81%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[41.585s] [35m[1mScanning dependencies of target complex_msg_publisher[0m
+[41.614s] [ 50%] [32mBuilding C object CMakeFiles/complex_msg_publisher.dir/main.c.o[0m
+[41.696s] [100%] [32m[1mLinking C executable complex_msg_publisher[0m
+[41.804s] [100%] Built target complex_msg_publisher
+[41.835s] [ 82%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[41.918s] [100%] Built target complex_msg_publisher
+[41.951s] [36mInstall the project...[0m
+[41.965s] -- Install configuration: ""
+[41.966s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher
+[41.966s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[41.999s] [ 82%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[42.056s] [ 82%] Built target complex_msg_publisher
+[42.076s] [35m[1mScanning dependencies of target fragmented_subscription[0m
+[42.096s] [ 83%] [34m[1mCreating directories for 'fragmented_subscription'[0m
+[42.225s] [ 83%] [34m[1mNo download step for 'fragmented_subscription'[0m
+[42.268s] [ 83%] [34m[1mNo patch step for 'fragmented_subscription'[0m
+[42.312s] [ 84%] [34m[1mNo update step for 'fragmented_subscription'[0m
+[42.355s] [ 85%] [34m[1mPerforming configure step for 'fragmented_subscription'[0m
+[42.371s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/fragmented_subscription/tmp/fragmented_subscription-cache-.cmake
+[42.445s] -- The C compiler identification is GNU 9.4.0
+[42.462s] -- Check for working C compiler: /usr/bin/cc
+[42.574s] -- Check for working C compiler: /usr/bin/cc -- works
+[42.576s] -- Detecting C compiler ABI info
+[42.688s] -- Detecting C compiler ABI info - done
+[42.715s] -- Detecting C compile features
+[42.716s] -- Detecting C compile features - done
+[42.723s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[42.766s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[42.766s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[43.071s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[43.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[43.150s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[43.338s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[43.388s] -- Found FastRTPS: /opt/ros/foxy/include  
+[43.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[43.605s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[43.610s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[43.611s] -- Looking for pthread.h
+[43.725s] -- Looking for pthread.h - found
+[43.725s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[43.842s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[43.842s] -- Looking for pthread_create in pthreads
+[43.941s] -- Looking for pthread_create in pthreads - not found
+[43.941s] -- Looking for pthread_create in pthread
+[44.053s] -- Looking for pthread_create in pthread - found
+[44.054s] -- Found Threads: TRUE  
+[44.088s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[44.096s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[44.118s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[44.139s] -- Configuring done
+[44.148s] -- Generating done
+[44.150s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/fragmented_subscription/src/fragmented_subscription-build
+[44.188s] [ 85%] [34m[1mPerforming build step for 'fragmented_subscription'[0m
+[44.247s] [35m[1mScanning dependencies of target fragmented_subscription[0m
+[44.277s] [ 50%] [32mBuilding C object CMakeFiles/fragmented_subscription.dir/main.c.o[0m
+[44.353s] [100%] [32m[1mLinking C executable fragmented_subscription[0m
+[44.468s] [100%] Built target fragmented_subscription
+[44.499s] [ 85%] [34m[1mPerforming install step for 'fragmented_subscription'[0m
+[44.585s] [100%] Built target fragmented_subscription
+[44.617s] [36mInstall the project...[0m
+[44.631s] -- Install configuration: ""
+[44.631s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription
+[44.632s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/fragmented_subscription/fragmented_subscription" to ""
+[44.665s] [ 86%] [34m[1mCompleted 'fragmented_subscription'[0m
+[44.722s] [ 86%] Built target fragmented_subscription
+[44.741s] [35m[1mScanning dependencies of target ping_uros_agent[0m
+[44.760s] [ 86%] [34m[1mCreating directories for 'ping_uros_agent'[0m
+[44.887s] [ 87%] [34m[1mNo download step for 'ping_uros_agent'[0m
+[44.930s] [ 88%] [34m[1mNo patch step for 'ping_uros_agent'[0m
+[44.973s] [ 88%] [34m[1mNo update step for 'ping_uros_agent'[0m
+[45.016s] [ 88%] [34m[1mPerforming configure step for 'ping_uros_agent'[0m
+[45.032s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/ping_uros_agent/tmp/ping_uros_agent-cache-.cmake
+[45.106s] -- The C compiler identification is GNU 9.4.0
+[45.124s] -- Check for working C compiler: /usr/bin/cc
+[45.236s] -- Check for working C compiler: /usr/bin/cc -- works
+[45.237s] -- Detecting C compiler ABI info
+[45.347s] -- Detecting C compiler ABI info - done
+[45.375s] -- Detecting C compile features
+[45.375s] -- Detecting C compile features - done
+[45.382s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[45.430s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[45.430s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[45.753s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[45.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[45.831s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[46.020s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[46.069s] -- Found FastRTPS: /opt/ros/foxy/include  
+[46.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[46.293s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[46.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[46.300s] -- Looking for pthread.h
+[46.430s] -- Looking for pthread.h - found
+[46.430s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[46.560s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[46.560s] -- Looking for pthread_create in pthreads
+[46.665s] -- Looking for pthread_create in pthreads - not found
+[46.666s] -- Looking for pthread_create in pthread
+[46.786s] -- Looking for pthread_create in pthread - found
+[46.787s] -- Found Threads: TRUE  
+[46.821s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[46.829s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[46.837s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[46.874s] -- Configuring done
+[46.883s] -- Generating done
+[46.885s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/ping_uros_agent/src/ping_uros_agent-build
+[46.923s] [ 89%] [34m[1mPerforming build step for 'ping_uros_agent'[0m
+[46.983s] [35m[1mScanning dependencies of target ping_uros_agent[0m
+[47.016s] [ 50%] [32mBuilding C object CMakeFiles/ping_uros_agent.dir/main.c.o[0m
+[47.103s] [100%] [32m[1mLinking C executable ping_uros_agent[0m
+[47.215s] [100%] Built target ping_uros_agent
+[47.245s] [ 90%] [34m[1mPerforming install step for 'ping_uros_agent'[0m
+[47.334s] [100%] Built target ping_uros_agent
+[47.368s] [36mInstall the project...[0m
+[47.384s] -- Install configuration: ""
+[47.384s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent
+[47.385s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/ping_uros_agent/ping_uros_agent" to ""
+[47.418s] [ 91%] [34m[1mCompleted 'ping_uros_agent'[0m
+[47.477s] [ 91%] Built target ping_uros_agent
+[47.497s] [35m[1mScanning dependencies of target timer[0m
+[47.503s] [35m[1mScanning dependencies of target int32_multinode[0m
+[47.517s] [ 92%] [34m[1mCreating directories for 'timer'[0m
+[47.525s] [ 92%] [34m[1mCreating directories for 'int32_multinode'[0m
+[47.649s] [ 92%] [34m[1mNo download step for 'timer'[0m
+[47.657s] [ 93%] [34m[1mNo download step for 'int32_multinode'[0m
+[47.696s] [ 93%] [34m[1mNo patch step for 'timer'[0m
+[47.703s] [ 94%] [34m[1mNo update step for 'timer'[0m
+[47.705s] [ 95%] [34m[1mNo patch step for 'int32_multinode'[0m
+[47.712s] [ 95%] [34m[1mNo update step for 'int32_multinode'[0m
+[47.758s] [ 96%] [34m[1mPerforming configure step for 'timer'[0m
+[47.767s] [ 96%] [34m[1mPerforming configure step for 'int32_multinode'[0m
+[47.776s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/timer/tmp/timer-cache-.cmake
+[47.785s] loading initial cache file /home/ngy/micro_ros/build/micro_ros_demos_rclc/int32_multinode/tmp/int32_multinode-cache-.cmake
+[47.857s] -- The C compiler identification is GNU 9.4.0
+[47.890s] -- Check for working C compiler: /usr/bin/cc
+[47.896s] -- The C compiler identification is GNU 9.4.0
+[47.929s] -- Check for working C compiler: /usr/bin/cc
+[48.028s] -- Check for working C compiler: /usr/bin/cc -- works
+[48.030s] -- Detecting C compiler ABI info
+[48.084s] -- Check for working C compiler: /usr/bin/cc -- works
+[48.086s] -- Detecting C compiler ABI info
+[48.192s] -- Detecting C compiler ABI info - done
+[48.221s] -- Detecting C compile features
+[48.221s] -- Detecting C compile features - done
+[48.227s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[48.252s] -- Detecting C compiler ABI info - done
+[48.284s] -- Detecting C compile features
+[48.285s] -- Detecting C compile features - done
+[48.289s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[48.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[48.291s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[48.366s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[48.366s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[48.694s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[48.803s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[48.829s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[48.933s] -- Found rcl: 1.1.14 (/opt/ros/foxy/share/rcl/cmake)
+[49.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[49.075s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[49.117s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[49.194s] -- Found FastRTPS: /opt/ros/foxy/include  
+[49.353s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[49.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[49.431s] -- Found FastRTPS: /opt/ros/foxy/include  
+[49.481s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[49.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[49.488s] -- Looking for pthread.h
+[49.620s] -- Looking for pthread.h - found
+[49.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[49.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[49.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[49.750s] -- Looking for pthread_create in pthreads
+[49.839s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[49.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[49.852s] -- Looking for pthread.h
+[49.863s] -- Looking for pthread_create in pthreads - not found
+[49.863s] -- Looking for pthread_create in pthread
+[50.029s] -- Looking for pthread_create in pthread - found
+[50.032s] -- Found Threads: TRUE  
+[50.042s] -- Looking for pthread.h - found
+[50.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[50.093s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[50.109s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[50.147s] -- Found rmw_microxrcedds: 1.1.0 (/home/ngy/micro_ros/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake)
+[50.172s] -- Configuring done
+[50.182s] -- Generating done
+[50.183s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/timer/src/timer-build
+[50.208s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[50.209s] -- Looking for pthread_create in pthreads
+[50.226s] [ 97%] [34m[1mPerforming build step for 'timer'[0m
+[50.292s] [35m[1mScanning dependencies of target timer[0m
+[50.322s] -- Looking for pthread_create in pthreads - not found
+[50.322s] -- Looking for pthread_create in pthread
+[50.330s] [ 50%] [32mBuilding C object CMakeFiles/timer.dir/main.c.o[0m
+[50.452s] -- Looking for pthread_create in pthread - found
+[50.455s] -- Found Threads: TRUE  
+[50.461s] [100%] [32m[1mLinking C executable timer[0m
+[50.511s] -- Found rclc: 1.1.2 (/home/ngy/micro_ros/install/rclc/share/rclc/cmake)
+[50.527s] -- Found std_msgs: 2.0.5 (/home/ngy/micro_ros/install/std_msgs/share/std_msgs/cmake)
+[50.582s] -- Configuring done
+[50.594s] -- Generating done
+[50.597s] -- Build files have been written to: /home/ngy/micro_ros/build/micro_ros_demos_rclc/int32_multinode/src/int32_multinode-build
+[50.626s] [100%] Built target timer
+[50.642s] [ 98%] [34m[1mPerforming build step for 'int32_multinode'[0m
+[50.659s] [ 98%] [34m[1mPerforming install step for 'timer'[0m
+[50.705s] [35m[1mScanning dependencies of target int32_multinode[0m
+[50.744s] [ 50%] [32mBuilding C object CMakeFiles/int32_multinode.dir/main.c.o[0m
+[50.755s] [100%] Built target timer
+[50.805s] [36mInstall the project...[0m
+[50.822s] -- Install configuration: ""
+[50.822s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/timer/timer
+[50.823s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/timer/timer" to ""
+[50.838s] [100%] [32m[1mLinking C executable int32_multinode[0m
+[50.874s] [ 99%] [34m[1mCompleted 'timer'[0m
+[50.967s] [ 99%] Built target timer
+[50.979s] [100%] Built target int32_multinode
+[51.013s] [100%] [34m[1mPerforming install step for 'int32_multinode'[0m
+[51.127s] [100%] Built target int32_multinode
+[51.180s] [36mInstall the project...[0m
+[51.202s] -- Install configuration: ""
+[51.202s] -- Installing: /home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode
+[51.203s] -- Set runtime path of "/home/ngy/micro_ros/build/micro_ros_demos_rclc/temp_install/int32_multinode/int32_multinode" to ""
+[51.253s] [100%] [34m[1mCompleted 'int32_multinode'[0m
+[51.346s] [100%] Built target int32_multinode
+[51.381s] Invoked command in '/home/ngy/micro_ros/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/microxrcedds_client:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds/lib:/home/ngy/micro_ros/install/rclc/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/example_interfaces/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/micro_ros/install/rcl_interfaces/lib:/home/ngy/micro_ros/install/microxrcedds_client/lib:/home/ngy/micro_ros/install/complex_msgs/lib:/home/ngy/micro_ros/install/action_msgs/lib:/home/ngy/micro_ros/install/unique_identifier_msgs/lib:/home/ngy/micro_ros/install/microcdr/lib:/home/ngy/micro_ros/install/micro_ros_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:/home/ngy/microros_ws/install/visualization_msgs/lib:/home/ngy/microros_ws/install/test_msgs/lib:/home/ngy/microros_ws/install/example_interfaces/lib:/home/ngy/microros_ws/install/action_msgs/lib:/home/ngy/microros_ws/install/unique_identifier_msgs/lib:/home/ngy/microros_ws/install/trajectory_msgs/lib:/home/ngy/microros_ws/install/stereo_msgs/lib:/home/ngy/microros_ws/install/std_srvs/lib:/home/ngy/microros_ws/install/shape_msgs/lib:/home/ngy/microros_ws/install/sensor_msgs/lib:/home/ngy/microros_ws/install/nav_msgs/lib:/home/ngy/microros_ws/install/diagnostic_msgs/lib:/home/ngy/microros_ws/install/geometry_msgs/lib:/home/ngy/microros_ws/install/actionlib_msgs/lib:/home/ngy/microros_ws/install/std_msgs/lib:/home/ngy/microros_ws/install/statistics_msgs/lib:/home/ngy/microros_ws/install/rmw_microxrcedds/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/microros_ws/install/rosgraph_msgs/lib:/home/ngy/microros_ws/install/rclc_parameter/lib:/home/ngy/microros_ws/install/rclc/lib:/home/ngy/microros_ws/install/composition_interfaces/lib:/home/ngy/microros_ws/install/rcl_interfaces/lib:/home/ngy/microros_ws/install/microxrcedds_client/lib:/home/ngy/microros_ws/install/microcdr/lib:/home/ngy/microros_ws/install/micro_ros_msgs/lib:/home/ngy/microros_ws/install/lifecycle_msgs/lib:/home/ngy/microros_ws/install/complex_msgs/lib:/home/ngy/microros_ws/install/builtin_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/visualization_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/test_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/trajectory_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/stereo_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/shape_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/nav_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/diagnostic_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/actionlib_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/statistics_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosgraph_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/composition_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ngy/micro_ros/build/micro_ros_demos_rclc -- -j12 -l12
+[51.514s] Invoking command in '/home/ngy/micro_ros/build/micro_ros_demos_rclc': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/microxrcedds_client:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds/lib:/home/ngy/micro_ros/install/rclc/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/example_interfaces/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/micro_ros/install/rcl_interfaces/lib:/home/ngy/micro_ros/install/microxrcedds_client/lib:/home/ngy/micro_ros/install/complex_msgs/lib:/home/ngy/micro_ros/install/action_msgs/lib:/home/ngy/micro_ros/install/unique_identifier_msgs/lib:/home/ngy/micro_ros/install/microcdr/lib:/home/ngy/micro_ros/install/micro_ros_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:/home/ngy/microros_ws/install/visualization_msgs/lib:/home/ngy/microros_ws/install/test_msgs/lib:/home/ngy/microros_ws/install/example_interfaces/lib:/home/ngy/microros_ws/install/action_msgs/lib:/home/ngy/microros_ws/install/unique_identifier_msgs/lib:/home/ngy/microros_ws/install/trajectory_msgs/lib:/home/ngy/microros_ws/install/stereo_msgs/lib:/home/ngy/microros_ws/install/std_srvs/lib:/home/ngy/microros_ws/install/shape_msgs/lib:/home/ngy/microros_ws/install/sensor_msgs/lib:/home/ngy/microros_ws/install/nav_msgs/lib:/home/ngy/microros_ws/install/diagnostic_msgs/lib:/home/ngy/microros_ws/install/geometry_msgs/lib:/home/ngy/microros_ws/install/actionlib_msgs/lib:/home/ngy/microros_ws/install/std_msgs/lib:/home/ngy/microros_ws/install/statistics_msgs/lib:/home/ngy/microros_ws/install/rmw_microxrcedds/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/microros_ws/install/rosgraph_msgs/lib:/home/ngy/microros_ws/install/rclc_parameter/lib:/home/ngy/microros_ws/install/rclc/lib:/home/ngy/microros_ws/install/composition_interfaces/lib:/home/ngy/microros_ws/install/rcl_interfaces/lib:/home/ngy/microros_ws/install/microxrcedds_client/lib:/home/ngy/microros_ws/install/microcdr/lib:/home/ngy/microros_ws/install/micro_ros_msgs/lib:/home/ngy/microros_ws/install/lifecycle_msgs/lib:/home/ngy/microros_ws/install/complex_msgs/lib:/home/ngy/microros_ws/install/builtin_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/visualization_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/test_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/trajectory_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/stereo_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/shape_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/nav_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/diagnostic_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/actionlib_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/statistics_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosgraph_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/composition_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ngy/micro_ros/build/micro_ros_demos_rclc
+[51.536s] -- Install configuration: ""
+[51.536s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc
+[51.537s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client
+[51.537s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_client/addtwoints_client
+[51.537s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer
+[51.538s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/graph_visualizer/graph_visualizer
+[51.538s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent
+[51.539s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/autodiscover_agent/autodiscover_agent
+[51.539s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent
+[51.539s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_uros_agent/ping_uros_agent
+[51.539s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber
+[51.539s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_subscriber/configured_subscriber
+[51.539s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber
+[51.540s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_subscriber/string_subscriber
+[51.540s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber
+[51.540s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_subscriber/complex_msg_subscriber
+[51.540s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher
+[51.540s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/configured_publisher/configured_publisher
+[51.541s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server
+[51.541s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/addtwoints_server/addtwoints_server
+[51.541s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count
+[51.541s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/subscription_count/subscription_count
+[51.541s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer
+[51.542s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/timer/timer
+[51.542s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber
+[51.542s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_subscriber/int32_subscriber
+[51.542s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count
+[51.542s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/publisher_count/publisher_count
+[51.543s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode
+[51.543s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_multinode/int32_multinode
+[51.543s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server
+[51.543s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_server/fibonacci_action_server
+[51.543s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication
+[51.544s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_publication/fragmented_publication
+[51.544s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher
+[51.544s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/string_publisher/string_publisher
+[51.544s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription
+[51.544s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fragmented_subscription/fragmented_subscription
+[51.545s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher
+[51.545s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/complex_msg_publisher/complex_msg_publisher
+[51.545s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber
+[51.545s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher_subscriber/int32_publisher_subscriber
+[51.545s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher
+[51.545s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/int32_publisher/int32_publisher
+[51.546s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong
+[51.546s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/ping_pong/ping_pong
+[51.546s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client
+[51.546s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/lib/micro_ros_demos_rclc/fibonacci_action_client/fibonacci_action_client
+[51.546s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclc
+[51.546s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclc
+[51.547s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.sh
+[51.547s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/ament_prefix_path.dsv
+[51.547s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.sh
+[51.547s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/environment/path.dsv
+[51.547s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.bash
+[51.547s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.sh
+[51.548s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.zsh
+[51.548s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/local_setup.dsv
+[51.548s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.dsv
+[51.548s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/ament_index/resource_index/packages/micro_ros_demos_rclc
+[51.549s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig.cmake
+[51.549s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/cmake/micro_ros_demos_rclcConfig-version.cmake
+[51.549s] -- Installing: /home/ngy/micro_ros/install/micro_ros_demos_rclc/share/micro_ros_demos_rclc/package.xml
+[51.565s] Invoked command in '/home/ngy/micro_ros/build/micro_ros_demos_rclc' returned '0': AMENT_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds:/home/ngy/micro_ros/install/rclc:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/micro_ros/install/geometry_msgs:/home/ngy/micro_ros/install/example_interfaces:/home/ngy/micro_ros/install/std_msgs:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c:/home/ngy/micro_ros/install/rcl_interfaces:/home/ngy/micro_ros/install/microxrcedds_client:/home/ngy/micro_ros/install/complex_msgs:/home/ngy/micro_ros/install/action_msgs:/home/ngy/micro_ros/install/unique_identifier_msgs:/home/ngy/micro_ros/install/microcdr:/home/ngy/micro_ros/install/micro_ros_msgs:/home/ngy/micro_ros/install/builtin_interfaces:/home/ngy/micro_ros/install/micro_ros_setup:/home/ngy/microros_ws/install/micro_ros_agent:/home/ngy/microros_ws/install/common_interfaces:/home/ngy/microros_ws/install/visualization_msgs:/home/ngy/microros_ws/install/test_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclc:/home/ngy/microros_ws/install/example_interfaces:/home/ngy/microros_ws/install/action_msgs:/home/ngy/microros_ws/install/unique_identifier_msgs:/home/ngy/microros_ws/install/trajectory_msgs:/home/ngy/microros_ws/install/stereo_msgs:/home/ngy/microros_ws/install/std_srvs:/home/ngy/microros_ws/install/shape_msgs:/home/ngy/microros_ws/install/sensor_msgs:/home/ngy/microros_ws/install/nav_msgs:/home/ngy/microros_ws/install/diagnostic_msgs:/home/ngy/microros_ws/install/geometry_msgs:/home/ngy/microros_ws/install/actionlib_msgs:/home/ngy/microros_ws/install/std_msgs:/home/ngy/microros_ws/install/statistics_msgs:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_test_msg:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp_tests:/home/ngy/microros_ws/install/rmw_microxrcedds:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c_tests:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/ngy/microros_ws/install/rosgraph_msgs:/home/ngy/microros_ws/install/rclc_parameter:/home/ngy/microros_ws/install/rclc:/home/ngy/microros_ws/install/composition_interfaces:/home/ngy/microros_ws/install/rcl_interfaces:/home/ngy/microros_ws/install/microxrcedds_client:/home/ngy/microros_ws/install/microcdr:/home/ngy/microros_ws/install/micro_ros_msgs:/home/ngy/microros_ws/install/micro_ros_demos_rclcpp:/home/ngy/microros_ws/install/lifecycle_msgs:/home/ngy/microros_ws/install/complex_msgs:/home/ngy/microros_ws/install/builtin_interfaces:/home/ngy/microros_ws/install/micro_ros_setup:/home/ngy/microros_ws/install/sensor_msgs_py:/opt/ros/foxy LD_LIBRARY_PATH=/home/ngy/micro_ros/install/rmw_microxrcedds/lib:/home/ngy/micro_ros/install/rclc/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/micro_ros/install/geometry_msgs/lib:/home/ngy/micro_ros/install/example_interfaces/lib:/home/ngy/micro_ros/install/std_msgs/lib:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/micro_ros/install/rcl_interfaces/lib:/home/ngy/micro_ros/install/microxrcedds_client/lib:/home/ngy/micro_ros/install/complex_msgs/lib:/home/ngy/micro_ros/install/action_msgs/lib:/home/ngy/micro_ros/install/unique_identifier_msgs/lib:/home/ngy/micro_ros/install/microcdr/lib:/home/ngy/micro_ros/install/micro_ros_msgs/lib:/home/ngy/micro_ros/install/builtin_interfaces/lib:/home/ngy/microros_ws/install/visualization_msgs/lib:/home/ngy/microros_ws/install/test_msgs/lib:/home/ngy/microros_ws/install/example_interfaces/lib:/home/ngy/microros_ws/install/action_msgs/lib:/home/ngy/microros_ws/install/unique_identifier_msgs/lib:/home/ngy/microros_ws/install/trajectory_msgs/lib:/home/ngy/microros_ws/install/stereo_msgs/lib:/home/ngy/microros_ws/install/std_srvs/lib:/home/ngy/microros_ws/install/shape_msgs/lib:/home/ngy/microros_ws/install/sensor_msgs/lib:/home/ngy/microros_ws/install/nav_msgs/lib:/home/ngy/microros_ws/install/diagnostic_msgs/lib:/home/ngy/microros_ws/install/geometry_msgs/lib:/home/ngy/microros_ws/install/actionlib_msgs/lib:/home/ngy/microros_ws/install/std_msgs/lib:/home/ngy/microros_ws/install/statistics_msgs/lib:/home/ngy/microros_ws/install/rmw_microxrcedds/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/ngy/microros_ws/install/rosgraph_msgs/lib:/home/ngy/microros_ws/install/rclc_parameter/lib:/home/ngy/microros_ws/install/rclc/lib:/home/ngy/microros_ws/install/composition_interfaces/lib:/home/ngy/microros_ws/install/rcl_interfaces/lib:/home/ngy/microros_ws/install/microxrcedds_client/lib:/home/ngy/microros_ws/install/microcdr/lib:/home/ngy/microros_ws/install/micro_ros_msgs/lib:/home/ngy/microros_ws/install/lifecycle_msgs/lib:/home/ngy/microros_ws/install/complex_msgs/lib:/home/ngy/microros_ws/install/builtin_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/micro_ros/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/std_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/micro_ros/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/micro_ros/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/action_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/micro_ros/install/builtin_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/visualization_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/test_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/example_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/action_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/trajectory_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/stereo_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_srvs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/shape_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/ngy/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/nav_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/diagnostic_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/actionlib_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/statistics_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rosgraph_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/composition_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/rcl_interfaces/lib/python3.8/site-packages:/home/ngy/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/lifecycle_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/complex_msgs/lib/python3.8/site-packages:/home/ngy/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ngy/micro_ros/build/micro_ros_demos_rclc

@@ -1,0 +1,13 @@
+# Target labels
+ ucdr
+# Source files and their labels
+/home/ngy/micro_ros/build/microcdr/CMakeFiles/ucdr
+/home/ngy/micro_ros/build/microcdr/CMakeFiles/ucdr.rule
+/home/ngy/micro_ros/build/microcdr/CMakeFiles/ucdr-complete.rule
+/home/ngy/micro_ros/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule
+/home/ngy/micro_ros/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule
+/home/ngy/micro_ros/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule
+/home/ngy/micro_ros/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule
+/home/ngy/micro_ros/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule
+/home/ngy/micro_ros/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule
+/home/ngy/micro_ros/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule

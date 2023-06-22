@@ -1,0 +1,1 @@
+/home/ngy/micro_ros/build/micro_ros_demos_rclcpp/temp_install/int32_publisher/int32_publisher

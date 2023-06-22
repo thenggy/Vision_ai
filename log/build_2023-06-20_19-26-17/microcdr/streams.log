@@ -1,0 +1,17 @@
+[0.016s] Invoking command in '/home/ngy/micro_ros/build/microcdr': /usr/bin/cmake --build /home/ngy/micro_ros/build/microcdr -- -j12 -l12
+[0.066s] [100%] Built target microcdr
+[0.078s] Invoked command in '/home/ngy/micro_ros/build/microcdr' returned '0': /usr/bin/cmake --build /home/ngy/micro_ros/build/microcdr -- -j12 -l12
+[0.138s] Invoking command in '/home/ngy/micro_ros/build/microcdr': /usr/bin/cmake --install /home/ngy/micro_ros/build/microcdr
+[0.146s] -- Install configuration: "Release"
+[0.146s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so.2.0.1
+[0.146s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so.2.0
+[0.146s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/lib/libmicrocdr.so
+[0.147s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/include/ucdr
+[0.147s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/include/ucdr/microcdr.h
+[0.147s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/include/ucdr/visibility.h
+[0.147s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/include/ucdr/config.h
+[0.147s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[0.147s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.147s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[0.147s] -- Up-to-date: /home/ngy/micro_ros/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.149s] Invoked command in '/home/ngy/micro_ros/build/microcdr' returned '0': /usr/bin/cmake --install /home/ngy/micro_ros/build/microcdr

@@ -1,0 +1,8 @@
+/home/ngy/micro_ros/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl
+/home/ngy/micro_ros/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl
+/home/ngy/micro_ros/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl
+/home/ngy/micro_ros/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl
+/home/ngy/micro_ros/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl
+/home/ngy/micro_ros/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl
+/home/ngy/micro_ros/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl
+/home/ngy/micro_ros/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl

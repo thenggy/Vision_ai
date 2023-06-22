@@ -1,0 +1,33 @@
+{
+  "package_name": "sensor_msgs",
+  "non_idl_tuples": [
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/BatteryState.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/CameraInfo.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/ChannelFloat32.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/CompressedImage.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/FluidPressure.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/Illuminance.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/Image.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/Imu.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/JointState.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/Joy.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/JoyFeedback.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/JoyFeedbackArray.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/LaserEcho.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/LaserScan.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/MagneticField.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/MultiDOFJointState.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/MultiEchoLaserScan.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/NavSatFix.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/NavSatStatus.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/PointCloud.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/PointCloud2.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/PointField.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/Range.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/RegionOfInterest.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/RelativeHumidity.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/Temperature.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:msg/TimeReference.msg",
+    "/home/ngy/micro_ros/src/ros2/common_interfaces/sensor_msgs:srv/SetCameraInfo.srv"
+  ]
+}
